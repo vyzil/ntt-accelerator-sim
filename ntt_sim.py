@@ -33,6 +33,14 @@ class Task:
         ready_table[output_a.ntt_idx][output_a.stage][output_a.index] = True
         ready_table[output_b.ntt_idx][output_b.stage][output_b.index] = True
 
+        last_stage = self.buffer.chunk.total_stages - 1
+        
+        # print(output_a.stage, last_stage, len(ready_table[0]))
+        if output_a.stage == last_stage:
+            self.buffer.complete_counts[output_a.ntt_idx] += 1
+            if output_a.index != output_b.index:
+                self.buffer.complete_counts[output_a.ntt_idx] += 1
+
 
 class ButterflyUnit:
     def __init__(self, bu_id, latency=9):
@@ -96,7 +104,6 @@ class Chunk:
             self.ntt_size = ntt.size
             self.ntt_stages = ntt.ntt_stages
             self.total_stages = ntt.total_stages
-            self.total_stages = ntt.total_stages
         self.ntt_num = self.ntt_num + 1
 
 
@@ -143,18 +150,24 @@ class Buffer:
         self.id = buffer_id
         self.chunk = None
         self.state = BufferState.IDLE
+        self.prev_state = BufferState.IDLE
         self.counter = 0
         self.activate = 0        
         self.ready_table = []
         self.process_done = 0
+        self.complete_counts = []
+
 
         self.start_cycle = 0  # 상태 시작 시점 저장
         self.read_start = 0
         self.proc_start = 0
         self.write_start = 0
 
-    def tick(self):
+    def tick(self):        
         cycle = self.sim.cycle 
+        if self.prev_state != self.state and DEBUG_BUF_STATE:
+            print(f"[{cycle}] BUF{self.id}: {self.prev_state} -> {self.state}")
+            self.prev_state = self.state
 
         if self.state == BufferState.IDLE:
             if self.activate:
@@ -189,7 +202,7 @@ class Buffer:
 
         elif self.state == BufferState.WRITE:
             if self.counter == 0:
-                if DEBUG:
+                if DEBUG :
                     print(f"[Buffer {self.id} : {self.chunk.chunk_id}] Cycle Report:")
                     print(f"  READ       : {self.proc_start - self.read_start} cycles")
                     print(f"  PROCESSING : {self.write_start - self.proc_start} cycles")
@@ -202,11 +215,11 @@ class Buffer:
         return None
 
     def check_process(self):
-        for ready_table in self.ready_table:
-            for idx in range(self.chunk.ntt_size):
-                if not ready_table[-1][idx]:
-                    self.process_done = 0
-                    return
+        expected = self.chunk.ntt_size
+        for count in self.complete_counts:
+            if count < expected:
+                self.process_done = 0
+                return
         self.process_done = 1
         return
 
@@ -232,14 +245,16 @@ class NTTSim:
         ntt_num = buffer.chunk.ntt_num
         ntt_stages = buffer.chunk.ntt_stages
         mult_stages = buffer.chunk.mult_stages
+        total_stages = buffer.chunk.total_stages
         for ntt_idx in range(ntt_num):
-            ready_table = [[False for _ in range(ntt_size)] for _ in range(ntt_stages)]
+            buffer.complete_counts = [0 for _ in range(ntt_num)]
+            ready_table = [[False for _ in range(ntt_size)] for _ in range(total_stages)]
             for i in range(ntt_size):
                 ready_table[0][i] = True
             buffer.ready_table.append(ready_table)
 
         bu_index = 0
-        for stage in range(1, ntt_stages):
+        for stage in range(1, ntt_stages + 1):
             distance = ntt_size >> stage
             group_size = 2 * distance
             num_groups = ntt_size // group_size
@@ -309,6 +324,7 @@ class NTTSim:
 
 
 DEBUG = True
+DEBUG_BUF_STATE = False
 
 if __name__ == "__main__":
     print("[*] Unified Lazy Chunk Feeding Simulation")

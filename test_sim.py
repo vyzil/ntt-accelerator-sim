@@ -1,81 +1,96 @@
-from ntt_sim import NTTSim  # 당신이 작성한 시뮬레이터가 ntt_sim.py에 있다고 가정
+from ntt_sim import Chunk, NTT, NTTSim
 
-def test_singleNTT(size, num, parallel, mult_stage=0):
-    print(f"\n=== NTT_ACC({size}, {num}, {parallel}, {mult_stage}) ===")
-    sim = NTTSim(size, num, parallel, mult_stage)
-    sim.schedule()
-    sim.run()
+DEBUG = True
+DEBUG_BUF_STATE = False
+
+def create_fine_chunk(chunk_id, ntt_index):
+    chunk = Chunk(chunk_id)
+    chunk.add_ntt(NTT(
+        size=2 ** 9,
+        start_idx=ntt_index,
+        stride=2 ** 18,
+        mult_stages=1 if ntt_index == 512 * 512 else 0
+    ))
+    chunk.measure_memory_latencies()
+    return chunk
+
+def create_col_chunk(chunk_id, base_idx, inner_idx):
+    chunk = Chunk(chunk_id)
+    chunk.add_ntt(NTT(
+        size=2 ** 9,
+        start_idx=base_idx + inner_idx,
+        stride=512,
+        mult_stages=1 if (inner_idx == 511) else 0
+    ))
+    chunk.measure_memory_latencies()
+    return chunk
+
+def create_row_chunk(chunk_id, base_idx, inner_idx):
+    chunk = Chunk(chunk_id)
+    chunk.add_ntt(NTT(
+        size=2 ** 9,
+        start_idx=base_idx + inner_idx * 512,
+        stride=1,
+        mult_stages=0
+    ))
+    chunk.measure_memory_latencies()
+    return chunk
+
+def run_phase_0():
+    sim = NTTSim(parallel=8)
+    chunk_id = 0
+    ntt_index = 1
+    total_ntts_fine = 512 * 512
+    print("[*] Run Phase 0 (Fine NTTs)")
+    while ntt_index <= total_ntts_fine:
+        chunk = create_fine_chunk(chunk_id, ntt_index)
+        sim.push_chunk(chunk)
+        while not sim.is_done():
+            sim.tick()
+        chunk_id += 1
+        ntt_index += 1
     sim.report()
 
-def test_BU_singleNTT():
-    sizes = [2 ** k for k in range(4, 15)]  # NTT size: 16 ~ 16384
-    bu_counts = [4, 8, 16, 32]
-    num = 1
-    mult_stage = 0
-    col_width = 10  # 고정 너비 설정
+def run_phase_1():
+    sim = NTTSim(parallel=8)
+    chunk_id = 0
+    inner_idx = 0
+    current_large_ntt_id = 1
+    total_ntts_large = 512
+    print("[*] Run Phase 1 (Column-wise)")
+    while current_large_ntt_id <= total_ntts_large:
+        chunk = create_col_chunk(chunk_id, current_large_ntt_id, inner_idx)
+        sim.push_chunk(chunk)
+        while not sim.is_done():
+            sim.tick()
+        chunk_id += 1
+        inner_idx += 1
+        if inner_idx == 512:
+            inner_idx = 0
+            current_large_ntt_id += 1
+    sim.report()
 
-    results = {}  # (bu, size) -> (cycle, stall)
-
-    # 시뮬레이션 실행
-    for bu in bu_counts:
-        for size in sizes:
-            sim = NTTSim(size, num, bu, mult_stage)
-            sim.schedule()
-            sim.run()
-            cycle = sim.cycles
-            stall = sim.BUs[0].stall_cycles
-            results[(bu, size)] = (cycle, stall)
-
-    # 헤더 출력
-    header = ["BU \\ NTT".ljust(col_width)] + [str(s).ljust(col_width) for s in sizes]
-    print("".join(header))
-    print("-" * (col_width * len(header)))
-
-    # 데이터 출력
-    for bu in bu_counts:
-        row = [str(bu).ljust(col_width)]
-        for size in sizes:
-            cycle, stall = results[(bu, size)]
-            cell = f"{cycle}({stall})"
-            row.append(cell.ljust(col_width))
-        print("".join(row))
-
-        
-def test_parallel_by_element(element_count=512):
-    bu_counts = [4, 8, 16, 32]
-    col_width = 12
-    results = {}
-    combinations = []
-
-    for size in range(2, element_count + 1):
-        if element_count % size == 0:
-            num = element_count // size
-            if (size & (size - 1)) == 0 and (num & (num - 1)) == 0:
-                combinations.append((size, num))
-
-    for size, num in combinations:
-        results[(size, num)] = {}
-        for bu in bu_counts:
-            sim = NTTSim(size, num, bu)
-            sim.schedule()
-            sim.run()
-            cycle = sim.cycles
-            stall = sim.BUs[0].stall_cycles
-            results[(size, num)][bu] = (cycle, stall)
-
-    # 터미널 출력
-    header = ["(size,num)".ljust(col_width)] + [f"BU={b}".ljust(col_width) for b in bu_counts]
-    print("".join(header))
-    print("-" * (len(header) * col_width))
-
-    for key in combinations:
-        row = [f"{key}".ljust(col_width)]
-        for bu in bu_counts:
-            cycle, stall = results[key][bu]
-            row.append(f"{cycle}({stall})".ljust(col_width))
-        print("".join(row))
+def run_phase_2():
+    sim = NTTSim(parallel=8)
+    chunk_id = 0
+    inner_idx = 0
+    current_large_ntt_id = 1
+    total_ntts_large = 512
+    print("[*] Run Phase 2 (Row-wise)")
+    while current_large_ntt_id <= total_ntts_large:
+        chunk = create_row_chunk(chunk_id, current_large_ntt_id, inner_idx)
+        sim.push_chunk(chunk)
+        while not sim.is_done():
+            sim.tick()
+        chunk_id += 1
+        inner_idx += 1
+        if inner_idx == 512:
+            inner_idx = 0
+            current_large_ntt_id += 1
+    sim.report()
 
 if __name__ == "__main__":
-    # test_singleNTT(512, 1, 8)
-    # test_BU_singleNTT()
-    test_parallel_by_element(1024)
+    print("[*] Unified Lazy Chunk Feeding Simulation")
+    # run_phase_0()
+    run_phase_1()
+    # run_phase_2()
