@@ -1,7 +1,7 @@
 from ntt_sim import Chunk, NTT, NTTSim
 
 DEBUG = True
-DEBUG_BUF_STATE = False
+DEBUG_BUF_STATE = True
 
 def create_fine_chunk(chunk_id, ntt_index):
     chunk = Chunk(chunk_id)
@@ -9,7 +9,7 @@ def create_fine_chunk(chunk_id, ntt_index):
         size=2 ** 9,
         start_idx=ntt_index,
         stride=2 ** 18,
-        mult_stages=1 if ntt_index == 512 * 512 else 0
+        mult_stages=1
     ))
     chunk.measure_memory_latencies()
     return chunk
@@ -36,8 +36,8 @@ def create_row_chunk(chunk_id, base_idx, inner_idx):
     chunk.measure_memory_latencies()
     return chunk
 
-def run_phase_0():
-    sim = NTTSim(parallel=8)
+def run_phase_0(parallel):
+    sim = NTTSim(parallel=parallel)
     chunk_id = 0
     ntt_index = 1
     total_ntts_fine = 512 * 512
@@ -45,14 +45,14 @@ def run_phase_0():
     while ntt_index <= total_ntts_fine:
         chunk = create_fine_chunk(chunk_id, ntt_index)
         sim.push_chunk(chunk)
-        while not sim.is_done():
+        while sim.chunk_queue:
             sim.tick()
         chunk_id += 1
         ntt_index += 1
     sim.report()
 
-def run_phase_1():
-    sim = NTTSim(parallel=8)
+def run_phase_1(parallel):
+    sim = NTTSim(parallel=parallel)
     chunk_id = 0
     inner_idx = 0
     current_large_ntt_id = 1
@@ -61,7 +61,7 @@ def run_phase_1():
     while current_large_ntt_id <= total_ntts_large:
         chunk = create_col_chunk(chunk_id, current_large_ntt_id, inner_idx)
         sim.push_chunk(chunk)
-        while not sim.is_done():
+        while sim.chunk_queue:
             sim.tick()
         chunk_id += 1
         inner_idx += 1
@@ -70,8 +70,8 @@ def run_phase_1():
             current_large_ntt_id += 1
     sim.report()
 
-def run_phase_2():
-    sim = NTTSim(parallel=8)
+def run_phase_2(parallel):
+    sim = NTTSim(parallel=parallel)
     chunk_id = 0
     inner_idx = 0
     current_large_ntt_id = 1
@@ -80,7 +80,7 @@ def run_phase_2():
     while current_large_ntt_id <= total_ntts_large:
         chunk = create_row_chunk(chunk_id, current_large_ntt_id, inner_idx)
         sim.push_chunk(chunk)
-        while not sim.is_done():
+        while sim.chunk_queue:
             sim.tick()
         chunk_id += 1
         inner_idx += 1
@@ -91,6 +91,7 @@ def run_phase_2():
 
 if __name__ == "__main__":
     print("[*] Unified Lazy Chunk Feeding Simulation")
-    # run_phase_0()
-    run_phase_1()
-    # run_phase_2()
+    parallel = 8
+    run_phase_0(parallel=8)
+    # run_phase_1(parallel=8)
+    # run_phase_2(parallel=8)

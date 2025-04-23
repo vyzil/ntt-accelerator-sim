@@ -35,7 +35,6 @@ class Task:
 
         last_stage = self.buffer.chunk.total_stages - 1
         
-        # print(output_a.stage, last_stage, len(ready_table[0]))
         if output_a.stage == last_stage:
             self.buffer.complete_counts[output_a.ntt_idx] += 1
             if output_a.index != output_b.index:
@@ -60,6 +59,8 @@ class ButterflyUnit:
                 self.next_input = task
                 self.total_active_cycles += 1
                 self.queue.pop(0)
+                if task.input_a.stage == 0 and task.buffer.state == BufferState.WAIT_PROCESS:
+                    task.buffer.waiting = False
             else:
                 self.stall_cycles += 1
 
@@ -140,9 +141,11 @@ class Chunk:
 class BufferState(Enum):
     IDLE = 0
     READ = 1
-    PROCESSING = 2
-    PROCESS_DONE = 3
-    WRITE = 4
+    WAIT_PROCESS = 2
+    PROCESSING = 3
+    PROCESS_DONE = 4
+    WRITE = 5
+
 
 class Buffer:
     def __init__(self, sim, buffer_id):
@@ -156,11 +159,14 @@ class Buffer:
         self.ready_table = []
         self.process_done = 0
         self.complete_counts = []
+        self.waiting = False
 
 
         self.start_cycle = 0  # 상태 시작 시점 저장
         self.read_start = 0
+        self.wait_start = 0
         self.proc_start = 0
+        self.done_start = 0
         self.write_start = 0
 
     def tick(self):        
@@ -178,21 +184,23 @@ class Buffer:
 
         elif self.state == BufferState.READ:
             if self.counter == 0:
-                self.state = BufferState.PROCESSING
-                self.proc_start = cycle
+                self.state = BufferState.WAIT_PROCESS
+                self.waiting = True
+                self.wait_start = cycle
                 self.sim.io_turn = 1 - self.id
                 self.sim.pending_schedule = 1
                 self.sim.pending_schedule_idx = self.id
             self.counter -= 1
 
+        elif self.state == BufferState.WAIT_PROCESS:
+            if not self.waiting:
+                self.state = BufferState.PROCESSING
+                self.proc_start = cycle
+
         elif self.state == BufferState.PROCESSING:
             if self.process_done:
-                if self.sim.io_turn == self.id:
-                    self.state = BufferState.WRITE
-                    self.counter = self.chunk.write_cycles
-                    self.write_start = cycle
-                else:
-                    self.state = BufferState.PROCESS_DONE
+                self.done_start = cycle
+                self.state = BufferState.PROCESS_DONE
 
         elif self.state == BufferState.PROCESS_DONE:
             if self.sim.io_turn == self.id:
@@ -203,9 +211,12 @@ class Buffer:
         elif self.state == BufferState.WRITE:
             if self.counter == 0:
                 if DEBUG :
-                    print(f"[Buffer {self.id} : {self.chunk.chunk_id}] Cycle Report:")
-                    print(f"  READ       : {self.proc_start - self.read_start} cycles")
-                    print(f"  PROCESSING : {self.write_start - self.proc_start} cycles")
+                    print(f"[+] {cycle} | [Buffer {self.id} : {self.chunk.chunk_id}] Report:")
+                    print(f"  NTT Info   : {self.chunk.ntt_size}-pint NTT x {self.chunk.ntt_num} {self.chunk.ntt_stages, self.chunk.mult_stages}")
+                    print(f"  READ       : {self.wait_start - self.read_start} cycles")
+                    print(f"  WAIT_PROC  : {self.proc_start - self.wait_start} cycles")
+                    print(f"  PROCESSING : {self.done_start - self.proc_start} cycles")
+                    print(f"  WAIT_WRITE : {self.write_start - self.done_start} cycles")
                     print(f"  WRITE      : {cycle - self.write_start} cycles")
                     print(f"  TOTAL      : {cycle - self.read_start} cycles\n")                
                 self.state = BufferState.IDLE
@@ -273,14 +284,14 @@ class NTTSim:
                         self.BUs[bu_index % self.parallel].queue.append(task)
                         bu_index += 1
         
-        for stage in range(1, mult_stages):
+        for stage in range(0, mult_stages+1):
             for ntt_idx in range(ntt_num):
                 for element_idx in range(ntt_size):
-                    input_a = Element(ntt_idx, ntt_stages + stage - 1, element_idx)
-                    input_b = Element(ntt_idx, ntt_stages + stage - 1, element_idx)
+                    input_a = Element(ntt_idx, ntt_stages + stage, element_idx)
+                    input_b = Element(ntt_idx, ntt_stages + stage, element_idx)
 
-                    output_a = Element(ntt_idx, ntt_stages + stage, element_idx)
-                    output_b = Element(ntt_idx, ntt_stages + stage, element_idx)
+                    output_a = Element(ntt_idx, ntt_stages + stage + 1, element_idx)
+                    output_b = Element(ntt_idx, ntt_stages + stage + 1, element_idx)
                     task = Task(buffer, input_a, input_b, output_a, output_b)
 
                     
@@ -305,6 +316,7 @@ class NTTSim:
         active_buffer = self.buffers[self.io_turn]
         
         if active_buffer.state == BufferState.IDLE and not self.chunk_queue:
+            print(f"give turn {self.io_turn} -> {1 - self.io_turn}")
             self.io_turn = 1 - self.io_turn
 
         if active_buffer.state == BufferState.IDLE and self.chunk_queue:
@@ -324,7 +336,7 @@ class NTTSim:
 
 
 DEBUG = True
-DEBUG_BUF_STATE = False
+DEBUG_BUF_STATE = True
 
 if __name__ == "__main__":
     print("[*] Unified Lazy Chunk Feeding Simulation")
@@ -358,7 +370,7 @@ if __name__ == "__main__":
             size=2 ** 9,
             start_idx=base_idx + inner_idx,
             stride=512,
-            mult_stages=1 if (inner_idx == 511 and phase == 1) else 0
+            mult_stages=1
         ))
         chunk.measure_memory_latencies()
         return chunk

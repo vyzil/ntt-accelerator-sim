@@ -1,31 +1,48 @@
-[+] 10   		[*] (Issue)  Type: ACTIVATE        | Addr: 0x00003c40 -> Channel:  0, BG: 3, Bank: 3, Row:     0, Col:  2
-[+] 24   		[*] (Issue)  Type: WRITE           | Addr: 0x00003c40 -> Channel:  0, BG: 3, Bank: 3, Row:     0, Col:  2
-[+] 46   		[*] (Issue)  Type: PRECHARGE       | Addr: 0x00007c40 -> Channel:  0, BG: 3, Bank: 3, Row:     1, Col:  2
-[+] 60   		[*] (Issue)  Type: ACTIVATE        | Addr: 0x00007c40 -> Channel:  0, BG: 3, Bank: 3, Row:     1, Col:  2
-[+] 74   		[*] (Issue)  Type: WRITE           | Addr: 0x00007c40 -> Channel:  0, BG: 3, Bank: 3, Row:     1, Col:  2
-[+] 96   		[*] (Issue)  Type: PRECHARGE       | Addr: 0x0000bc40 -> Channel:  0, BG: 3, Bank: 3, Row:     2, Col:  2
-[+] 110  		[*] (Issue)  Type: ACTIVATE        | Addr: 0x0000bc40 -> Channel:  0, BG: 3, Bank: 3, Row:     2, Col:  2
-[+] 124  		[*] (Issue)  Type: WRITE           | Addr: 0x0000bc40 -> Channel:  0, BG: 3, Bank: 3, Row:     2, Col:  2
-[+] 146  		[*] (Issue)  Type: PRECHARGE       | Addr: 0x0000fc40 -> Channel:  0, BG: 3, Bank: 3, Row:     3, Col:  2
-[+] 160  		[*] (Issue)  Type: ACTIVATE        | Addr: 0x0000fc40 -> Channel:  0, BG: 3, Bank: 3, Row:     3, Col:  2
-[+] 174  		[*] (Issue)  Type: WRITE           | Addr: 0x0000fc40 -> Channel:  0, BG: 3, Bank: 3, Row:     3, Col:  2
-[+] 196  		[*] (Issue)  Type: PRECHARGE       | Addr: 0x00013c40 -> Channel:  0, BG: 3, Bank: 3, Row:     4, Col:  2
-[+] 210  		[*] (Issue)  Type: ACTIVATE        | Addr: 0x00013c40 -> Channel:  0, BG: 3, Bank: 3, Row:     4, Col:  2
-[+] 224  		[*] (Issue)  Type: WRITE           | Addr: 0x00013c40 -> Channel:  0, BG: 3, Bank: 3, Row:     4, Col:  2
-[+] 246  		[*] (Issue)  Type: PRECHARGE       | Addr: 0x00017c40 -> Channel:  0, BG: 3, Bank: 3, Row:     5, Col:  2
-[+] 260  		[*] (Issue)  Type: ACTIVATE        | Addr: 0x00017c40 -> Channel:  0, BG: 3, Bank: 3, Row:     5, Col:  2
-[+] 274  		[*] (Issue)  Type: WRITE           | Addr: 0x00017c40 -> Channel:  0, BG: 3, Bank: 3, Row:     5, Col:  2
-[+] 296  		[*] (Issue)  Type: PRECHARGE       | Addr: 0x0001bc40 -> Channel:  0, BG: 3, Bank: 3, Row:     6, Col:  2
-[+] 310  		[*] (Issue)  Type: ACTIVATE        | Addr: 0x0001bc40 -> Channel:  0, BG: 3, Bank: 3, Row:     6, Col:  2
-[+] 324  		[*] (Issue)  Type: WRITE           | Addr: 0x0001bc40 -> Channel:  0, BG: 3, Bank: 3, Row:     6, Col:  2
-[+] 346  		[*] (Issue)  Type: PRECHARGE       | Addr: 0x0001fc40 -> Channel:  0, BG: 3, Bank: 3, Row:     7, Col:  2
-[+] 360  		[*] (Issue)  Type: ACTIVATE        | Addr: 0x0001fc40 -> Channel:  0, BG: 3, Bank: 3, Row:     7, Col:  2
-[+] 374  		[*] (Issue)  Type: WRITE           | Addr: 0x0001fc40 -> Channel:  0, BG: 3, Bank: 3, Row:     7, Col:  2
-[+] 396  		[*] (Issue)  Type: PRECHARGE       | Addr: 0x00023c40 -> Channel:  0, BG: 3, Bank: 3, Row:     8, Col:  2
-[+] 410  		[*] (Issue)  Type: ACTIVATE        | Addr: 0x00023c40 -> Channel:  0, BG: 3, Bank: 3, Row:     8, Col:  2
-[+] 424  		[*] (Issue)  Type: WRITE           | Addr: 0x00023c40 -> Channel:  0, BG: 3, Bank: 3, Row:     8, Col:  2
-[+] 446  		[*] (Issue)  Type: PRECHARGE       | Addr: 0x00027c40 -> Channel:  0, BG: 3, Bank: 3, Row:     9, Col:  2
-[+] 460  		[*] (Issue)  Type: ACTIVATE        | Addr: 0x00027c40 -> Channel:  0, BG: 3, Bank: 3, Row:     9, Col:  2
-[+] 474  		[*] (Issue)  Type: WRITE           | Addr: 0x00027c40 -> Channel:  0, BG: 3, Bank: 3, Row:     9, Col:  2
-[+] 496  		[*] (Issue)  Type: PRECHARGE       | Addr: 0x0002bc40 -> Channel:  0, BG: 3, Bank: 3, Row:    10, Col:  2
-[+] 510  		[*] (Issue)  Type: ACTIVATE        | Addr: 0x0002bc40 -> Channel:  0, BG: 3, Bank: 3, Row:    10, Col:  2
+[+] 18   		[*] (Issue)  Type: ACTIVATE        | Addr: 0x000001a0 -> Channel:  0, BG: 0, Bank: 0, Row:     0, Col: 13
+        		[*] (Issue)  Type: ACTIVATE        | Addr: 0x200001a0 -> Channel:  2, BG: 0, Bank: 0, Row:     0, Col: 13
+        		[*] (Issue)  Type: ACTIVATE        | Addr: 0x400001a0 -> Channel:  4, BG: 0, Bank: 0, Row:     0, Col: 13
+        		[*] (Issue)  Type: ACTIVATE        | Addr: 0x600001a0 -> Channel:  6, BG: 0, Bank: 0, Row:     0, Col: 13
+        		[*] (Issue)  Type: ACTIVATE        | Addr: 0x800001a0 -> Channel:  8, BG: 0, Bank: 0, Row:     0, Col: 13
+        		[*] (Issue)  Type: ACTIVATE        | Addr: 0xa00001a0 -> Channel: 10, BG: 0, Bank: 0, Row:     0, Col: 13
+        		[*] (Issue)  Type: ACTIVATE        | Addr: 0xc00001a0 -> Channel: 12, BG: 0, Bank: 0, Row:     0, Col: 13
+        		[*] (Issue)  Type: ACTIVATE        | Addr: 0xe00001a0 -> Channel: 14, BG: 0, Bank: 0, Row:     0, Col: 13
+[+] 19   		[*] (Issue)  Type: ACTIVATE        | Addr: 0x100001a0 -> Channel:  1, BG: 0, Bank: 0, Row:     0, Col: 13
+        		[*] (Issue)  Type: ACTIVATE        | Addr: 0x300001a0 -> Channel:  3, BG: 0, Bank: 0, Row:     0, Col: 13
+        		[*] (Issue)  Type: ACTIVATE        | Addr: 0x500001a0 -> Channel:  5, BG: 0, Bank: 0, Row:     0, Col: 13
+        		[*] (Issue)  Type: ACTIVATE        | Addr: 0x700001a0 -> Channel:  7, BG: 0, Bank: 0, Row:     0, Col: 13
+        		[*] (Issue)  Type: ACTIVATE        | Addr: 0x900001a0 -> Channel:  9, BG: 0, Bank: 0, Row:     0, Col: 13
+        		[*] (Issue)  Type: ACTIVATE        | Addr: 0xb00001a0 -> Channel: 11, BG: 0, Bank: 0, Row:     0, Col: 13
+        		[*] (Issue)  Type: ACTIVATE        | Addr: 0xd00001a0 -> Channel: 13, BG: 0, Bank: 0, Row:     0, Col: 13
+        		[*] (Issue)  Type: ACTIVATE        | Addr: 0xf00001a0 -> Channel: 15, BG: 0, Bank: 0, Row:     0, Col: 13
+[+] 32   		[*] (Issue)  Type: WRITE           | Addr: 0x000001a0 -> Channel:  0, BG: 0, Bank: 0, Row:     0, Col: 13
+        		[*] (Issue)  Type: WRITE           | Addr: 0x200001a0 -> Channel:  2, BG: 0, Bank: 0, Row:     0, Col: 13
+        		[*] (Issue)  Type: WRITE           | Addr: 0x400001a0 -> Channel:  4, BG: 0, Bank: 0, Row:     0, Col: 13
+        		[*] (Issue)  Type: WRITE           | Addr: 0x600001a0 -> Channel:  6, BG: 0, Bank: 0, Row:     0, Col: 13
+        		[*] (Issue)  Type: WRITE           | Addr: 0x800001a0 -> Channel:  8, BG: 0, Bank: 0, Row:     0, Col: 13
+        		[*] (Issue)  Type: WRITE           | Addr: 0xa00001a0 -> Channel: 10, BG: 0, Bank: 0, Row:     0, Col: 13
+        		[*] (Issue)  Type: WRITE           | Addr: 0xc00001a0 -> Channel: 12, BG: 0, Bank: 0, Row:     0, Col: 13
+        		[*] (Issue)  Type: WRITE           | Addr: 0xe00001a0 -> Channel: 14, BG: 0, Bank: 0, Row:     0, Col: 13
+[+] 33   		[*] (Issue)  Type: WRITE           | Addr: 0x100001a0 -> Channel:  1, BG: 0, Bank: 0, Row:     0, Col: 13
+        		[*] (Issue)  Type: WRITE           | Addr: 0x300001a0 -> Channel:  3, BG: 0, Bank: 0, Row:     0, Col: 13
+        		[*] (Issue)  Type: WRITE           | Addr: 0x500001a0 -> Channel:  5, BG: 0, Bank: 0, Row:     0, Col: 13
+        		[*] (Issue)  Type: WRITE           | Addr: 0x700001a0 -> Channel:  7, BG: 0, Bank: 0, Row:     0, Col: 13
+        		[*] (Issue)  Type: WRITE           | Addr: 0x900001a0 -> Channel:  9, BG: 0, Bank: 0, Row:     0, Col: 13
+        		[*] (Issue)  Type: WRITE           | Addr: 0xb00001a0 -> Channel: 11, BG: 0, Bank: 0, Row:     0, Col: 13
+        		[*] (Issue)  Type: WRITE           | Addr: 0xd00001a0 -> Channel: 13, BG: 0, Bank: 0, Row:     0, Col: 13
+        		[*] (Issue)  Type: WRITE           | Addr: 0xf00001a0 -> Channel: 15, BG: 0, Bank: 0, Row:     0, Col: 13
+[+] 54   		[*] (Issue)  Type: PRECHARGE       | Addr: 0x008001a0 -> Channel:  0, BG: 0, Bank: 0, Row:   512, Col: 13
+        		[*] (Issue)  Type: PRECHARGE       | Addr: 0x208001a0 -> Channel:  2, BG: 0, Bank: 0, Row:   512, Col: 13
+        		[*] (Issue)  Type: PRECHARGE       | Addr: 0x408001a0 -> Channel:  4, BG: 0, Bank: 0, Row:   512, Col: 13
+        		[*] (Issue)  Type: PRECHARGE       | Addr: 0x608001a0 -> Channel:  6, BG: 0, Bank: 0, Row:   512, Col: 13
+        		[*] (Issue)  Type: PRECHARGE       | Addr: 0x808001a0 -> Channel:  8, BG: 0, Bank: 0, Row:   512, Col: 13
+        		[*] (Issue)  Type: PRECHARGE       | Addr: 0xa08001a0 -> Channel: 10, BG: 0, Bank: 0, Row:   512, Col: 13
+        		[*] (Issue)  Type: PRECHARGE       | Addr: 0xc08001a0 -> Channel: 12, BG: 0, Bank: 0, Row:   512, Col: 13
+        		[*] (Issue)  Type: PRECHARGE       | Addr: 0xe08001a0 -> Channel: 14, BG: 0, Bank: 0, Row:   512, Col: 13
+[+] 55   		[*] (Issue)  Type: PRECHARGE       | Addr: 0x108001a0 -> Channel:  1, BG: 0, Bank: 0, Row:   512, Col: 13
+        		[*] (Issue)  Type: PRECHARGE       | Addr: 0x308001a0 -> Channel:  3, BG: 0, Bank: 0, Row:   512, Col: 13
+        		[*] (Issue)  Type: PRECHARGE       | Addr: 0x508001a0 -> Channel:  5, BG: 0, Bank: 0, Row:   512, Col: 13
+        		[*] (Issue)  Type: PRECHARGE       | Addr: 0x708001a0 -> Channel:  7, BG: 0, Bank: 0, Row:   512, Col: 13
+        		[*] (Issue)  Type: PRECHARGE       | Addr: 0x908001a0 -> Channel:  9, BG: 0, Bank: 0, Row:   512, Col: 13
+        		[*] (Issue)  Type: PRECHARGE       | Addr: 0xb08001a0 -> Channel: 11, BG: 0, Bank: 0, Row:   512, Col: 13
+        		[*] (Issue)  Type: PRECHARGE       | Addr: 0xd08001a0 -> Channel: 13, BG: 0, Bank: 0, Row:   512, Col: 13
+        		[*] (Issue)  Type: PRECHARGE       | Addr: 0xf08001a0 -> Channel: 15, BG: 0, Bank: 0, Row:   512, Col: 13

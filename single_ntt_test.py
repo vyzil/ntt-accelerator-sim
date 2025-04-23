@@ -1,4 +1,4 @@
-from ntt_sim import NTTSim  # 당신이 작성한 시뮬레이터가 ntt_sim.py에 있다고 가정
+from single_ntt_sim import NTTSim
 
 def test_singleNTT(size, num, parallel, mult_stage=0):
     print(f"\n=== NTT_ACC({size}, {num}, {parallel}, {mult_stage}) ===")
@@ -78,4 +78,4 @@ def test_parallel_by_element(element_count=512):
 if __name__ == "__main__":
     # test_singleNTT(512, 1, 8)
     # test_BU_singleNTT()
-    test_parallel_by_element(1024)
+    test_parallel_by_element(512)
