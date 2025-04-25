@@ -32,8 +32,8 @@ class Task:
         output_b = self.output_b
         ready_table[output_a.ntt_idx][output_a.stage][output_a.index] = True
         ready_table[output_b.ntt_idx][output_b.stage][output_b.index] = True
-
-        last_stage = self.buffer.chunk.total_stages - 1
+        
+        last_stage = self.buffer.chunk.total_stages
         
         if output_a.stage == last_stage:
             self.buffer.complete_counts[output_a.ntt_idx] += 1
@@ -81,7 +81,7 @@ class NTT:
         self.stride = stride
         self.ntt_stages = size.bit_length() - 1
         self.mult_stages = mult_stages
-        self.total_stages = 1 + self.ntt_stages + self.mult_stages
+        self.total_stages = self.ntt_stages + self.mult_stages
 
     def get_addresses(self):
         return [(self.start_idx + i * self.stride) << 5 for i in range(self.size)]
@@ -104,6 +104,7 @@ class Chunk:
         if self.ntt_num == 0:
             self.ntt_size = ntt.size
             self.ntt_stages = ntt.ntt_stages
+            self.mult_stages = ntt.mult_stages
             self.total_stages = ntt.total_stages
         self.ntt_num = self.ntt_num + 1
 
@@ -259,14 +260,14 @@ class NTTSim:
         total_stages = buffer.chunk.total_stages
         for ntt_idx in range(ntt_num):
             buffer.complete_counts = [0 for _ in range(ntt_num)]
-            ready_table = [[False for _ in range(ntt_size)] for _ in range(total_stages)]
+            ready_table = [[False for _ in range(ntt_size)] for _ in range(total_stages+1)]
             for i in range(ntt_size):
                 ready_table[0][i] = True
             buffer.ready_table.append(ready_table)
 
         bu_index = 0
-        for stage in range(1, ntt_stages + 1):
-            distance = ntt_size >> stage
+        for stage in range(0, ntt_stages):
+            distance = ntt_size >> (stage+1)
             group_size = 2 * distance
             num_groups = ntt_size // group_size
             for ntt_idx in range(ntt_num):            
@@ -275,16 +276,16 @@ class NTTSim:
                         index_a = group * group_size + pair
                         index_b = index_a + distance
 
-                        input_a = Element(ntt_idx, stage - 1, index_a)
-                        input_b = Element(ntt_idx, stage - 1, index_b)
-                        output_a = Element(ntt_idx, stage, index_a)
-                        output_b = Element(ntt_idx, stage, index_b)
+                        input_a = Element(ntt_idx, stage, index_a)
+                        input_b = Element(ntt_idx, stage, index_b)
+                        output_a = Element(ntt_idx, stage+1, index_a)
+                        output_b = Element(ntt_idx, stage+1, index_b)
                         task = Task(buffer, input_a, input_b, output_a, output_b)
 
                         self.BUs[bu_index % self.parallel].queue.append(task)
                         bu_index += 1
-        
-        for stage in range(0, mult_stages+1):
+                        
+        for stage in range(0, mult_stages):
             for ntt_idx in range(ntt_num):
                 for element_idx in range(ntt_size):
                     input_a = Element(ntt_idx, ntt_stages + stage, element_idx)

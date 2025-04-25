@@ -1,560 +1,586 @@
-[+] 2    		[=] (Return) Type: WRITE           | Addr: 0x000001a0 | Added:     1, Done:     2, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x200001a0 | Added:     1, Done:     2, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x400001a0 | Added:     1, Done:     2, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x600001a0 | Added:     1, Done:     2, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x800001a0 | Added:     1, Done:     2, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xa00001a0 | Added:     1, Done:     2, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xc00001a0 | Added:     1, Done:     2, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xe00001a0 | Added:     1, Done:     2, Latency:     1
-[+] 3    		[=] (Return) Type: WRITE           | Addr: 0x100001a0 | Added:     2, Done:     3, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x300001a0 | Added:     2, Done:     3, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x500001a0 | Added:     2, Done:     3, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x700001a0 | Added:     2, Done:     3, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x900001a0 | Added:     2, Done:     3, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xb00001a0 | Added:     2, Done:     3, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xd00001a0 | Added:     2, Done:     3, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xf00001a0 | Added:     2, Done:     3, Latency:     1
-[+] 4    		[=] (Return) Type: WRITE           | Addr: 0x008001a0 | Added:     3, Done:     4, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x208001a0 | Added:     3, Done:     4, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x408001a0 | Added:     3, Done:     4, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x608001a0 | Added:     3, Done:     4, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x808001a0 | Added:     3, Done:     4, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xa08001a0 | Added:     3, Done:     4, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xc08001a0 | Added:     3, Done:     4, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xe08001a0 | Added:     3, Done:     4, Latency:     1
-[+] 5    		[=] (Return) Type: WRITE           | Addr: 0x108001a0 | Added:     4, Done:     5, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x308001a0 | Added:     4, Done:     5, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x508001a0 | Added:     4, Done:     5, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x708001a0 | Added:     4, Done:     5, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x908001a0 | Added:     4, Done:     5, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xb08001a0 | Added:     4, Done:     5, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xd08001a0 | Added:     4, Done:     5, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xf08001a0 | Added:     4, Done:     5, Latency:     1
-[+] 6    		[=] (Return) Type: WRITE           | Addr: 0x010001a0 | Added:     5, Done:     6, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x210001a0 | Added:     5, Done:     6, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x410001a0 | Added:     5, Done:     6, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x610001a0 | Added:     5, Done:     6, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x810001a0 | Added:     5, Done:     6, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xa10001a0 | Added:     5, Done:     6, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xc10001a0 | Added:     5, Done:     6, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xe10001a0 | Added:     5, Done:     6, Latency:     1
-[+] 7    		[=] (Return) Type: WRITE           | Addr: 0x110001a0 | Added:     6, Done:     7, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x310001a0 | Added:     6, Done:     7, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x510001a0 | Added:     6, Done:     7, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x710001a0 | Added:     6, Done:     7, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x910001a0 | Added:     6, Done:     7, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xb10001a0 | Added:     6, Done:     7, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xd10001a0 | Added:     6, Done:     7, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xf10001a0 | Added:     6, Done:     7, Latency:     1
-[+] 8    		[=] (Return) Type: WRITE           | Addr: 0x018001a0 | Added:     7, Done:     8, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x218001a0 | Added:     7, Done:     8, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x418001a0 | Added:     7, Done:     8, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x618001a0 | Added:     7, Done:     8, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x818001a0 | Added:     7, Done:     8, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xa18001a0 | Added:     7, Done:     8, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xc18001a0 | Added:     7, Done:     8, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xe18001a0 | Added:     7, Done:     8, Latency:     1
-[+] 9    		[=] (Return) Type: WRITE           | Addr: 0x118001a0 | Added:     8, Done:     9, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x318001a0 | Added:     8, Done:     9, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x518001a0 | Added:     8, Done:     9, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x718001a0 | Added:     8, Done:     9, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x918001a0 | Added:     8, Done:     9, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xb18001a0 | Added:     8, Done:     9, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xd18001a0 | Added:     8, Done:     9, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xf18001a0 | Added:     8, Done:     9, Latency:     1
-[+] 10   		[=] (Return) Type: WRITE           | Addr: 0x020001a0 | Added:     9, Done:    10, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x220001a0 | Added:     9, Done:    10, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x420001a0 | Added:     9, Done:    10, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x620001a0 | Added:     9, Done:    10, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x820001a0 | Added:     9, Done:    10, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xa20001a0 | Added:     9, Done:    10, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xc20001a0 | Added:     9, Done:    10, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xe20001a0 | Added:     9, Done:    10, Latency:     1
-[+] 11   		[=] (Return) Type: WRITE           | Addr: 0x120001a0 | Added:    10, Done:    11, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x320001a0 | Added:    10, Done:    11, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x520001a0 | Added:    10, Done:    11, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x720001a0 | Added:    10, Done:    11, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x920001a0 | Added:    10, Done:    11, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xb20001a0 | Added:    10, Done:    11, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xd20001a0 | Added:    10, Done:    11, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xf20001a0 | Added:    10, Done:    11, Latency:     1
-[+] 12   		[=] (Return) Type: WRITE           | Addr: 0x028001a0 | Added:    11, Done:    12, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x228001a0 | Added:    11, Done:    12, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x428001a0 | Added:    11, Done:    12, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x628001a0 | Added:    11, Done:    12, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x828001a0 | Added:    11, Done:    12, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xa28001a0 | Added:    11, Done:    12, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xc28001a0 | Added:    11, Done:    12, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xe28001a0 | Added:    11, Done:    12, Latency:     1
-[+] 13   		[=] (Return) Type: WRITE           | Addr: 0x128001a0 | Added:    12, Done:    13, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x328001a0 | Added:    12, Done:    13, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x528001a0 | Added:    12, Done:    13, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x728001a0 | Added:    12, Done:    13, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x928001a0 | Added:    12, Done:    13, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xb28001a0 | Added:    12, Done:    13, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xd28001a0 | Added:    12, Done:    13, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xf28001a0 | Added:    12, Done:    13, Latency:     1
-[+] 14   		[=] (Return) Type: WRITE           | Addr: 0x030001a0 | Added:    13, Done:    14, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x230001a0 | Added:    13, Done:    14, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x430001a0 | Added:    13, Done:    14, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x630001a0 | Added:    13, Done:    14, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x830001a0 | Added:    13, Done:    14, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xa30001a0 | Added:    13, Done:    14, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xc30001a0 | Added:    13, Done:    14, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xe30001a0 | Added:    13, Done:    14, Latency:     1
-[+] 15   		[=] (Return) Type: WRITE           | Addr: 0x130001a0 | Added:    14, Done:    15, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x330001a0 | Added:    14, Done:    15, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x530001a0 | Added:    14, Done:    15, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x730001a0 | Added:    14, Done:    15, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x930001a0 | Added:    14, Done:    15, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xb30001a0 | Added:    14, Done:    15, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xd30001a0 | Added:    14, Done:    15, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xf30001a0 | Added:    14, Done:    15, Latency:     1
-[+] 16   		[=] (Return) Type: WRITE           | Addr: 0x038001a0 | Added:    15, Done:    16, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x238001a0 | Added:    15, Done:    16, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x438001a0 | Added:    15, Done:    16, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x638001a0 | Added:    15, Done:    16, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x838001a0 | Added:    15, Done:    16, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xa38001a0 | Added:    15, Done:    16, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xc38001a0 | Added:    15, Done:    16, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xe38001a0 | Added:    15, Done:    16, Latency:     1
-[+] 17   		[=] (Return) Type: WRITE           | Addr: 0x138001a0 | Added:    16, Done:    17, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x338001a0 | Added:    16, Done:    17, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x538001a0 | Added:    16, Done:    17, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x738001a0 | Added:    16, Done:    17, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x938001a0 | Added:    16, Done:    17, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xb38001a0 | Added:    16, Done:    17, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xd38001a0 | Added:    16, Done:    17, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xf38001a0 | Added:    16, Done:    17, Latency:     1
-[+] 18   		[=] (Return) Type: WRITE           | Addr: 0x040001a0 | Added:    17, Done:    18, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x240001a0 | Added:    17, Done:    18, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x440001a0 | Added:    17, Done:    18, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x640001a0 | Added:    17, Done:    18, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x840001a0 | Added:    17, Done:    18, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xa40001a0 | Added:    17, Done:    18, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xc40001a0 | Added:    17, Done:    18, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xe40001a0 | Added:    17, Done:    18, Latency:     1
-        		[*] (Issue)  Type: ACTIVATE        | Addr: 0x000001a0 -> Channel:  0, BG: 0, Bank: 0, Row:     0, Col: 13
-        		[*] (Issue)  Type: ACTIVATE        | Addr: 0x200001a0 -> Channel:  2, BG: 0, Bank: 0, Row:     0, Col: 13
-        		[*] (Issue)  Type: ACTIVATE        | Addr: 0x400001a0 -> Channel:  4, BG: 0, Bank: 0, Row:     0, Col: 13
-        		[*] (Issue)  Type: ACTIVATE        | Addr: 0x600001a0 -> Channel:  6, BG: 0, Bank: 0, Row:     0, Col: 13
-        		[*] (Issue)  Type: ACTIVATE        | Addr: 0x800001a0 -> Channel:  8, BG: 0, Bank: 0, Row:     0, Col: 13
-        		[*] (Issue)  Type: ACTIVATE        | Addr: 0xa00001a0 -> Channel: 10, BG: 0, Bank: 0, Row:     0, Col: 13
-        		[*] (Issue)  Type: ACTIVATE        | Addr: 0xc00001a0 -> Channel: 12, BG: 0, Bank: 0, Row:     0, Col: 13
-        		[*] (Issue)  Type: ACTIVATE        | Addr: 0xe00001a0 -> Channel: 14, BG: 0, Bank: 0, Row:     0, Col: 13
-[+] 19   		[=] (Return) Type: WRITE           | Addr: 0x140001a0 | Added:    18, Done:    19, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x340001a0 | Added:    18, Done:    19, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x540001a0 | Added:    18, Done:    19, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x740001a0 | Added:    18, Done:    19, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x940001a0 | Added:    18, Done:    19, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xb40001a0 | Added:    18, Done:    19, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xd40001a0 | Added:    18, Done:    19, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xf40001a0 | Added:    18, Done:    19, Latency:     1
-        		[*] (Issue)  Type: ACTIVATE        | Addr: 0x100001a0 -> Channel:  1, BG: 0, Bank: 0, Row:     0, Col: 13
-        		[*] (Issue)  Type: ACTIVATE        | Addr: 0x300001a0 -> Channel:  3, BG: 0, Bank: 0, Row:     0, Col: 13
-        		[*] (Issue)  Type: ACTIVATE        | Addr: 0x500001a0 -> Channel:  5, BG: 0, Bank: 0, Row:     0, Col: 13
-        		[*] (Issue)  Type: ACTIVATE        | Addr: 0x700001a0 -> Channel:  7, BG: 0, Bank: 0, Row:     0, Col: 13
-        		[*] (Issue)  Type: ACTIVATE        | Addr: 0x900001a0 -> Channel:  9, BG: 0, Bank: 0, Row:     0, Col: 13
-        		[*] (Issue)  Type: ACTIVATE        | Addr: 0xb00001a0 -> Channel: 11, BG: 0, Bank: 0, Row:     0, Col: 13
-        		[*] (Issue)  Type: ACTIVATE        | Addr: 0xd00001a0 -> Channel: 13, BG: 0, Bank: 0, Row:     0, Col: 13
-        		[*] (Issue)  Type: ACTIVATE        | Addr: 0xf00001a0 -> Channel: 15, BG: 0, Bank: 0, Row:     0, Col: 13
-[+] 20   		[=] (Return) Type: WRITE           | Addr: 0x048001a0 | Added:    19, Done:    20, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x248001a0 | Added:    19, Done:    20, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x448001a0 | Added:    19, Done:    20, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x648001a0 | Added:    19, Done:    20, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x848001a0 | Added:    19, Done:    20, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xa48001a0 | Added:    19, Done:    20, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xc48001a0 | Added:    19, Done:    20, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xe48001a0 | Added:    19, Done:    20, Latency:     1
-[+] 21   		[=] (Return) Type: WRITE           | Addr: 0x148001a0 | Added:    20, Done:    21, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x348001a0 | Added:    20, Done:    21, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x548001a0 | Added:    20, Done:    21, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x748001a0 | Added:    20, Done:    21, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x948001a0 | Added:    20, Done:    21, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xb48001a0 | Added:    20, Done:    21, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xd48001a0 | Added:    20, Done:    21, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xf48001a0 | Added:    20, Done:    21, Latency:     1
-[+] 22   		[=] (Return) Type: WRITE           | Addr: 0x050001a0 | Added:    21, Done:    22, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x250001a0 | Added:    21, Done:    22, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x450001a0 | Added:    21, Done:    22, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x650001a0 | Added:    21, Done:    22, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x850001a0 | Added:    21, Done:    22, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xa50001a0 | Added:    21, Done:    22, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xc50001a0 | Added:    21, Done:    22, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xe50001a0 | Added:    21, Done:    22, Latency:     1
-[+] 23   		[=] (Return) Type: WRITE           | Addr: 0x150001a0 | Added:    22, Done:    23, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x350001a0 | Added:    22, Done:    23, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x550001a0 | Added:    22, Done:    23, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x750001a0 | Added:    22, Done:    23, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x950001a0 | Added:    22, Done:    23, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xb50001a0 | Added:    22, Done:    23, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xd50001a0 | Added:    22, Done:    23, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xf50001a0 | Added:    22, Done:    23, Latency:     1
-[+] 24   		[=] (Return) Type: WRITE           | Addr: 0x058001a0 | Added:    23, Done:    24, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x258001a0 | Added:    23, Done:    24, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x458001a0 | Added:    23, Done:    24, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x658001a0 | Added:    23, Done:    24, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x858001a0 | Added:    23, Done:    24, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xa58001a0 | Added:    23, Done:    24, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xc58001a0 | Added:    23, Done:    24, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xe58001a0 | Added:    23, Done:    24, Latency:     1
-[+] 25   		[=] (Return) Type: WRITE           | Addr: 0x158001a0 | Added:    24, Done:    25, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x358001a0 | Added:    24, Done:    25, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x558001a0 | Added:    24, Done:    25, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x758001a0 | Added:    24, Done:    25, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x958001a0 | Added:    24, Done:    25, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xb58001a0 | Added:    24, Done:    25, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xd58001a0 | Added:    24, Done:    25, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xf58001a0 | Added:    24, Done:    25, Latency:     1
-[+] 26   		[=] (Return) Type: WRITE           | Addr: 0x060001a0 | Added:    25, Done:    26, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x260001a0 | Added:    25, Done:    26, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x460001a0 | Added:    25, Done:    26, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x660001a0 | Added:    25, Done:    26, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x860001a0 | Added:    25, Done:    26, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xa60001a0 | Added:    25, Done:    26, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xc60001a0 | Added:    25, Done:    26, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xe60001a0 | Added:    25, Done:    26, Latency:     1
-[+] 27   		[=] (Return) Type: WRITE           | Addr: 0x160001a0 | Added:    26, Done:    27, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x360001a0 | Added:    26, Done:    27, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x560001a0 | Added:    26, Done:    27, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x760001a0 | Added:    26, Done:    27, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x960001a0 | Added:    26, Done:    27, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xb60001a0 | Added:    26, Done:    27, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xd60001a0 | Added:    26, Done:    27, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xf60001a0 | Added:    26, Done:    27, Latency:     1
-[+] 28   		[=] (Return) Type: WRITE           | Addr: 0x068001a0 | Added:    27, Done:    28, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x268001a0 | Added:    27, Done:    28, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x468001a0 | Added:    27, Done:    28, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x668001a0 | Added:    27, Done:    28, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x868001a0 | Added:    27, Done:    28, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xa68001a0 | Added:    27, Done:    28, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xc68001a0 | Added:    27, Done:    28, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xe68001a0 | Added:    27, Done:    28, Latency:     1
-[+] 29   		[=] (Return) Type: WRITE           | Addr: 0x168001a0 | Added:    28, Done:    29, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x368001a0 | Added:    28, Done:    29, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x568001a0 | Added:    28, Done:    29, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x768001a0 | Added:    28, Done:    29, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x968001a0 | Added:    28, Done:    29, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xb68001a0 | Added:    28, Done:    29, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xd68001a0 | Added:    28, Done:    29, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xf68001a0 | Added:    28, Done:    29, Latency:     1
-[+] 30   		[=] (Return) Type: WRITE           | Addr: 0x070001a0 | Added:    29, Done:    30, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x270001a0 | Added:    29, Done:    30, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x470001a0 | Added:    29, Done:    30, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x670001a0 | Added:    29, Done:    30, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x870001a0 | Added:    29, Done:    30, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xa70001a0 | Added:    29, Done:    30, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xc70001a0 | Added:    29, Done:    30, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xe70001a0 | Added:    29, Done:    30, Latency:     1
-[+] 31   		[=] (Return) Type: WRITE           | Addr: 0x170001a0 | Added:    30, Done:    31, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x370001a0 | Added:    30, Done:    31, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x570001a0 | Added:    30, Done:    31, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x770001a0 | Added:    30, Done:    31, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x970001a0 | Added:    30, Done:    31, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xb70001a0 | Added:    30, Done:    31, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xd70001a0 | Added:    30, Done:    31, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xf70001a0 | Added:    30, Done:    31, Latency:     1
-[+] 32   		[=] (Return) Type: WRITE           | Addr: 0x078001a0 | Added:    31, Done:    32, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x278001a0 | Added:    31, Done:    32, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x478001a0 | Added:    31, Done:    32, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x678001a0 | Added:    31, Done:    32, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x878001a0 | Added:    31, Done:    32, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xa78001a0 | Added:    31, Done:    32, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xc78001a0 | Added:    31, Done:    32, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xe78001a0 | Added:    31, Done:    32, Latency:     1
-        		[*] (Issue)  Type: WRITE           | Addr: 0x000001a0 -> Channel:  0, BG: 0, Bank: 0, Row:     0, Col: 13
-        		[*] (Issue)  Type: WRITE           | Addr: 0x200001a0 -> Channel:  2, BG: 0, Bank: 0, Row:     0, Col: 13
-        		[*] (Issue)  Type: WRITE           | Addr: 0x400001a0 -> Channel:  4, BG: 0, Bank: 0, Row:     0, Col: 13
-        		[*] (Issue)  Type: WRITE           | Addr: 0x600001a0 -> Channel:  6, BG: 0, Bank: 0, Row:     0, Col: 13
-        		[*] (Issue)  Type: WRITE           | Addr: 0x800001a0 -> Channel:  8, BG: 0, Bank: 0, Row:     0, Col: 13
-        		[*] (Issue)  Type: WRITE           | Addr: 0xa00001a0 -> Channel: 10, BG: 0, Bank: 0, Row:     0, Col: 13
-        		[*] (Issue)  Type: WRITE           | Addr: 0xc00001a0 -> Channel: 12, BG: 0, Bank: 0, Row:     0, Col: 13
-        		[*] (Issue)  Type: WRITE           | Addr: 0xe00001a0 -> Channel: 14, BG: 0, Bank: 0, Row:     0, Col: 13
-[+] 33   		[=] (Return) Type: WRITE           | Addr: 0x178001a0 | Added:    32, Done:    33, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x378001a0 | Added:    32, Done:    33, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x578001a0 | Added:    32, Done:    33, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x778001a0 | Added:    32, Done:    33, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x978001a0 | Added:    32, Done:    33, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xb78001a0 | Added:    32, Done:    33, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xd78001a0 | Added:    32, Done:    33, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xf78001a0 | Added:    32, Done:    33, Latency:     1
-        		[*] (Issue)  Type: WRITE           | Addr: 0x100001a0 -> Channel:  1, BG: 0, Bank: 0, Row:     0, Col: 13
-        		[*] (Issue)  Type: WRITE           | Addr: 0x300001a0 -> Channel:  3, BG: 0, Bank: 0, Row:     0, Col: 13
-        		[*] (Issue)  Type: WRITE           | Addr: 0x500001a0 -> Channel:  5, BG: 0, Bank: 0, Row:     0, Col: 13
-        		[*] (Issue)  Type: WRITE           | Addr: 0x700001a0 -> Channel:  7, BG: 0, Bank: 0, Row:     0, Col: 13
-        		[*] (Issue)  Type: WRITE           | Addr: 0x900001a0 -> Channel:  9, BG: 0, Bank: 0, Row:     0, Col: 13
-        		[*] (Issue)  Type: WRITE           | Addr: 0xb00001a0 -> Channel: 11, BG: 0, Bank: 0, Row:     0, Col: 13
-        		[*] (Issue)  Type: WRITE           | Addr: 0xd00001a0 -> Channel: 13, BG: 0, Bank: 0, Row:     0, Col: 13
-        		[*] (Issue)  Type: WRITE           | Addr: 0xf00001a0 -> Channel: 15, BG: 0, Bank: 0, Row:     0, Col: 13
-[+] 34   		[=] (Return) Type: WRITE           | Addr: 0x080001a0 | Added:    33, Done:    34, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x280001a0 | Added:    33, Done:    34, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x480001a0 | Added:    33, Done:    34, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x680001a0 | Added:    33, Done:    34, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x880001a0 | Added:    33, Done:    34, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xa80001a0 | Added:    33, Done:    34, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xc80001a0 | Added:    33, Done:    34, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xe80001a0 | Added:    33, Done:    34, Latency:     1
-[+] 35   		[=] (Return) Type: WRITE           | Addr: 0x180001a0 | Added:    34, Done:    35, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x380001a0 | Added:    34, Done:    35, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x580001a0 | Added:    34, Done:    35, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x780001a0 | Added:    34, Done:    35, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x980001a0 | Added:    34, Done:    35, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xb80001a0 | Added:    34, Done:    35, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xd80001a0 | Added:    34, Done:    35, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xf80001a0 | Added:    34, Done:    35, Latency:     1
-[+] 36   		[=] (Return) Type: WRITE           | Addr: 0x088001a0 | Added:    35, Done:    36, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x288001a0 | Added:    35, Done:    36, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x488001a0 | Added:    35, Done:    36, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x688001a0 | Added:    35, Done:    36, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x888001a0 | Added:    35, Done:    36, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xa88001a0 | Added:    35, Done:    36, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xc88001a0 | Added:    35, Done:    36, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xe88001a0 | Added:    35, Done:    36, Latency:     1
-[+] 37   		[=] (Return) Type: WRITE           | Addr: 0x188001a0 | Added:    36, Done:    37, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x388001a0 | Added:    36, Done:    37, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x588001a0 | Added:    36, Done:    37, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x788001a0 | Added:    36, Done:    37, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x988001a0 | Added:    36, Done:    37, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xb88001a0 | Added:    36, Done:    37, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xd88001a0 | Added:    36, Done:    37, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xf88001a0 | Added:    36, Done:    37, Latency:     1
-[+] 38   		[=] (Return) Type: WRITE           | Addr: 0x090001a0 | Added:    37, Done:    38, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x290001a0 | Added:    37, Done:    38, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x490001a0 | Added:    37, Done:    38, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x690001a0 | Added:    37, Done:    38, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x890001a0 | Added:    37, Done:    38, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xa90001a0 | Added:    37, Done:    38, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xc90001a0 | Added:    37, Done:    38, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xe90001a0 | Added:    37, Done:    38, Latency:     1
-[+] 39   		[=] (Return) Type: WRITE           | Addr: 0x190001a0 | Added:    38, Done:    39, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x390001a0 | Added:    38, Done:    39, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x590001a0 | Added:    38, Done:    39, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x790001a0 | Added:    38, Done:    39, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x990001a0 | Added:    38, Done:    39, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xb90001a0 | Added:    38, Done:    39, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xd90001a0 | Added:    38, Done:    39, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xf90001a0 | Added:    38, Done:    39, Latency:     1
-[+] 40   		[=] (Return) Type: WRITE           | Addr: 0x098001a0 | Added:    39, Done:    40, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x298001a0 | Added:    39, Done:    40, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x498001a0 | Added:    39, Done:    40, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x698001a0 | Added:    39, Done:    40, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x898001a0 | Added:    39, Done:    40, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xa98001a0 | Added:    39, Done:    40, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xc98001a0 | Added:    39, Done:    40, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xe98001a0 | Added:    39, Done:    40, Latency:     1
-[+] 41   		[=] (Return) Type: WRITE           | Addr: 0x198001a0 | Added:    40, Done:    41, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x398001a0 | Added:    40, Done:    41, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x598001a0 | Added:    40, Done:    41, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x798001a0 | Added:    40, Done:    41, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x998001a0 | Added:    40, Done:    41, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xb98001a0 | Added:    40, Done:    41, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xd98001a0 | Added:    40, Done:    41, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xf98001a0 | Added:    40, Done:    41, Latency:     1
-[+] 42   		[=] (Return) Type: WRITE           | Addr: 0x0a0001a0 | Added:    41, Done:    42, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x2a0001a0 | Added:    41, Done:    42, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x4a0001a0 | Added:    41, Done:    42, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x6a0001a0 | Added:    41, Done:    42, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x8a0001a0 | Added:    41, Done:    42, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xaa0001a0 | Added:    41, Done:    42, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xca0001a0 | Added:    41, Done:    42, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xea0001a0 | Added:    41, Done:    42, Latency:     1
-[+] 43   		[=] (Return) Type: WRITE           | Addr: 0x1a0001a0 | Added:    42, Done:    43, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x3a0001a0 | Added:    42, Done:    43, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x5a0001a0 | Added:    42, Done:    43, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x7a0001a0 | Added:    42, Done:    43, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x9a0001a0 | Added:    42, Done:    43, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xba0001a0 | Added:    42, Done:    43, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xda0001a0 | Added:    42, Done:    43, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xfa0001a0 | Added:    42, Done:    43, Latency:     1
-[+] 44   		[=] (Return) Type: WRITE           | Addr: 0x0a8001a0 | Added:    43, Done:    44, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x2a8001a0 | Added:    43, Done:    44, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x4a8001a0 | Added:    43, Done:    44, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x6a8001a0 | Added:    43, Done:    44, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x8a8001a0 | Added:    43, Done:    44, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xaa8001a0 | Added:    43, Done:    44, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xca8001a0 | Added:    43, Done:    44, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xea8001a0 | Added:    43, Done:    44, Latency:     1
-[+] 45   		[=] (Return) Type: WRITE           | Addr: 0x1a8001a0 | Added:    44, Done:    45, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x3a8001a0 | Added:    44, Done:    45, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x5a8001a0 | Added:    44, Done:    45, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x7a8001a0 | Added:    44, Done:    45, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x9a8001a0 | Added:    44, Done:    45, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xba8001a0 | Added:    44, Done:    45, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xda8001a0 | Added:    44, Done:    45, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xfa8001a0 | Added:    44, Done:    45, Latency:     1
-[+] 46   		[=] (Return) Type: WRITE           | Addr: 0x0b0001a0 | Added:    45, Done:    46, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x2b0001a0 | Added:    45, Done:    46, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x4b0001a0 | Added:    45, Done:    46, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x6b0001a0 | Added:    45, Done:    46, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x8b0001a0 | Added:    45, Done:    46, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xab0001a0 | Added:    45, Done:    46, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xcb0001a0 | Added:    45, Done:    46, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xeb0001a0 | Added:    45, Done:    46, Latency:     1
-[+] 47   		[=] (Return) Type: WRITE           | Addr: 0x1b0001a0 | Added:    46, Done:    47, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x3b0001a0 | Added:    46, Done:    47, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x5b0001a0 | Added:    46, Done:    47, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x7b0001a0 | Added:    46, Done:    47, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x9b0001a0 | Added:    46, Done:    47, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xbb0001a0 | Added:    46, Done:    47, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xdb0001a0 | Added:    46, Done:    47, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xfb0001a0 | Added:    46, Done:    47, Latency:     1
-[+] 48   		[=] (Return) Type: WRITE           | Addr: 0x0b8001a0 | Added:    47, Done:    48, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x2b8001a0 | Added:    47, Done:    48, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x4b8001a0 | Added:    47, Done:    48, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x6b8001a0 | Added:    47, Done:    48, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x8b8001a0 | Added:    47, Done:    48, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xab8001a0 | Added:    47, Done:    48, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xcb8001a0 | Added:    47, Done:    48, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xeb8001a0 | Added:    47, Done:    48, Latency:     1
-[+] 49   		[=] (Return) Type: WRITE           | Addr: 0x1b8001a0 | Added:    48, Done:    49, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x3b8001a0 | Added:    48, Done:    49, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x5b8001a0 | Added:    48, Done:    49, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x7b8001a0 | Added:    48, Done:    49, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x9b8001a0 | Added:    48, Done:    49, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xbb8001a0 | Added:    48, Done:    49, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xdb8001a0 | Added:    48, Done:    49, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xfb8001a0 | Added:    48, Done:    49, Latency:     1
-[+] 50   		[=] (Return) Type: WRITE           | Addr: 0x0c0001a0 | Added:    49, Done:    50, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x2c0001a0 | Added:    49, Done:    50, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x4c0001a0 | Added:    49, Done:    50, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x6c0001a0 | Added:    49, Done:    50, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x8c0001a0 | Added:    49, Done:    50, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xac0001a0 | Added:    49, Done:    50, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xcc0001a0 | Added:    49, Done:    50, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xec0001a0 | Added:    49, Done:    50, Latency:     1
-[+] 51   		[=] (Return) Type: WRITE           | Addr: 0x1c0001a0 | Added:    50, Done:    51, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x3c0001a0 | Added:    50, Done:    51, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x5c0001a0 | Added:    50, Done:    51, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x7c0001a0 | Added:    50, Done:    51, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x9c0001a0 | Added:    50, Done:    51, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xbc0001a0 | Added:    50, Done:    51, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xdc0001a0 | Added:    50, Done:    51, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xfc0001a0 | Added:    50, Done:    51, Latency:     1
-[+] 52   		[=] (Return) Type: WRITE           | Addr: 0x0c8001a0 | Added:    51, Done:    52, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x2c8001a0 | Added:    51, Done:    52, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x4c8001a0 | Added:    51, Done:    52, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x6c8001a0 | Added:    51, Done:    52, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x8c8001a0 | Added:    51, Done:    52, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xac8001a0 | Added:    51, Done:    52, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xcc8001a0 | Added:    51, Done:    52, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xec8001a0 | Added:    51, Done:    52, Latency:     1
-[+] 53   		[=] (Return) Type: WRITE           | Addr: 0x1c8001a0 | Added:    52, Done:    53, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x3c8001a0 | Added:    52, Done:    53, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x5c8001a0 | Added:    52, Done:    53, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x7c8001a0 | Added:    52, Done:    53, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x9c8001a0 | Added:    52, Done:    53, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xbc8001a0 | Added:    52, Done:    53, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xdc8001a0 | Added:    52, Done:    53, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xfc8001a0 | Added:    52, Done:    53, Latency:     1
-[+] 54   		[=] (Return) Type: WRITE           | Addr: 0x0d0001a0 | Added:    53, Done:    54, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x2d0001a0 | Added:    53, Done:    54, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x4d0001a0 | Added:    53, Done:    54, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x6d0001a0 | Added:    53, Done:    54, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x8d0001a0 | Added:    53, Done:    54, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xad0001a0 | Added:    53, Done:    54, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xcd0001a0 | Added:    53, Done:    54, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xed0001a0 | Added:    53, Done:    54, Latency:     1
-        		[*] (Issue)  Type: PRECHARGE       | Addr: 0x008001a0 -> Channel:  0, BG: 0, Bank: 0, Row:   512, Col: 13
-        		[*] (Issue)  Type: PRECHARGE       | Addr: 0x208001a0 -> Channel:  2, BG: 0, Bank: 0, Row:   512, Col: 13
-        		[*] (Issue)  Type: PRECHARGE       | Addr: 0x408001a0 -> Channel:  4, BG: 0, Bank: 0, Row:   512, Col: 13
-        		[*] (Issue)  Type: PRECHARGE       | Addr: 0x608001a0 -> Channel:  6, BG: 0, Bank: 0, Row:   512, Col: 13
-        		[*] (Issue)  Type: PRECHARGE       | Addr: 0x808001a0 -> Channel:  8, BG: 0, Bank: 0, Row:   512, Col: 13
-        		[*] (Issue)  Type: PRECHARGE       | Addr: 0xa08001a0 -> Channel: 10, BG: 0, Bank: 0, Row:   512, Col: 13
-        		[*] (Issue)  Type: PRECHARGE       | Addr: 0xc08001a0 -> Channel: 12, BG: 0, Bank: 0, Row:   512, Col: 13
-        		[*] (Issue)  Type: PRECHARGE       | Addr: 0xe08001a0 -> Channel: 14, BG: 0, Bank: 0, Row:   512, Col: 13
-[+] 55   		[=] (Return) Type: WRITE           | Addr: 0x1d0001a0 | Added:    54, Done:    55, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x3d0001a0 | Added:    54, Done:    55, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x5d0001a0 | Added:    54, Done:    55, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x7d0001a0 | Added:    54, Done:    55, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x9d0001a0 | Added:    54, Done:    55, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xbd0001a0 | Added:    54, Done:    55, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xdd0001a0 | Added:    54, Done:    55, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xfd0001a0 | Added:    54, Done:    55, Latency:     1
-        		[*] (Issue)  Type: PRECHARGE       | Addr: 0x108001a0 -> Channel:  1, BG: 0, Bank: 0, Row:   512, Col: 13
-        		[*] (Issue)  Type: PRECHARGE       | Addr: 0x308001a0 -> Channel:  3, BG: 0, Bank: 0, Row:   512, Col: 13
-        		[*] (Issue)  Type: PRECHARGE       | Addr: 0x508001a0 -> Channel:  5, BG: 0, Bank: 0, Row:   512, Col: 13
-        		[*] (Issue)  Type: PRECHARGE       | Addr: 0x708001a0 -> Channel:  7, BG: 0, Bank: 0, Row:   512, Col: 13
-        		[*] (Issue)  Type: PRECHARGE       | Addr: 0x908001a0 -> Channel:  9, BG: 0, Bank: 0, Row:   512, Col: 13
-        		[*] (Issue)  Type: PRECHARGE       | Addr: 0xb08001a0 -> Channel: 11, BG: 0, Bank: 0, Row:   512, Col: 13
-        		[*] (Issue)  Type: PRECHARGE       | Addr: 0xd08001a0 -> Channel: 13, BG: 0, Bank: 0, Row:   512, Col: 13
-        		[*] (Issue)  Type: PRECHARGE       | Addr: 0xf08001a0 -> Channel: 15, BG: 0, Bank: 0, Row:   512, Col: 13
-[+] 56   		[=] (Return) Type: WRITE           | Addr: 0x0d8001a0 | Added:    55, Done:    56, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x2d8001a0 | Added:    55, Done:    56, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x4d8001a0 | Added:    55, Done:    56, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x6d8001a0 | Added:    55, Done:    56, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x8d8001a0 | Added:    55, Done:    56, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xad8001a0 | Added:    55, Done:    56, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xcd8001a0 | Added:    55, Done:    56, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xed8001a0 | Added:    55, Done:    56, Latency:     1
-[+] 57   		[=] (Return) Type: WRITE           | Addr: 0x1d8001a0 | Added:    56, Done:    57, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x3d8001a0 | Added:    56, Done:    57, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x5d8001a0 | Added:    56, Done:    57, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x7d8001a0 | Added:    56, Done:    57, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x9d8001a0 | Added:    56, Done:    57, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xbd8001a0 | Added:    56, Done:    57, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xdd8001a0 | Added:    56, Done:    57, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xfd8001a0 | Added:    56, Done:    57, Latency:     1
-[+] 58   		[=] (Return) Type: WRITE           | Addr: 0x0e0001a0 | Added:    57, Done:    58, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x2e0001a0 | Added:    57, Done:    58, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x4e0001a0 | Added:    57, Done:    58, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x6e0001a0 | Added:    57, Done:    58, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x8e0001a0 | Added:    57, Done:    58, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xae0001a0 | Added:    57, Done:    58, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xce0001a0 | Added:    57, Done:    58, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xee0001a0 | Added:    57, Done:    58, Latency:     1
-[+] 59   		[=] (Return) Type: WRITE           | Addr: 0x1e0001a0 | Added:    58, Done:    59, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x3e0001a0 | Added:    58, Done:    59, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x5e0001a0 | Added:    58, Done:    59, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x7e0001a0 | Added:    58, Done:    59, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x9e0001a0 | Added:    58, Done:    59, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xbe0001a0 | Added:    58, Done:    59, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xde0001a0 | Added:    58, Done:    59, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xfe0001a0 | Added:    58, Done:    59, Latency:     1
-[+] 60   		[=] (Return) Type: WRITE           | Addr: 0x0e8001a0 | Added:    59, Done:    60, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x2e8001a0 | Added:    59, Done:    60, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x4e8001a0 | Added:    59, Done:    60, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x6e8001a0 | Added:    59, Done:    60, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x8e8001a0 | Added:    59, Done:    60, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xae8001a0 | Added:    59, Done:    60, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xce8001a0 | Added:    59, Done:    60, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xee8001a0 | Added:    59, Done:    60, Latency:     1
-[+] 61   		[=] (Return) Type: WRITE           | Addr: 0x1e8001a0 | Added:    60, Done:    61, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x3e8001a0 | Added:    60, Done:    61, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x5e8001a0 | Added:    60, Done:    61, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x7e8001a0 | Added:    60, Done:    61, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x9e8001a0 | Added:    60, Done:    61, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xbe8001a0 | Added:    60, Done:    61, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xde8001a0 | Added:    60, Done:    61, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xfe8001a0 | Added:    60, Done:    61, Latency:     1
-[+] 62   		[=] (Return) Type: WRITE           | Addr: 0x0f0001a0 | Added:    61, Done:    62, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x2f0001a0 | Added:    61, Done:    62, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x4f0001a0 | Added:    61, Done:    62, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x6f0001a0 | Added:    61, Done:    62, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x8f0001a0 | Added:    61, Done:    62, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xaf0001a0 | Added:    61, Done:    62, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xcf0001a0 | Added:    61, Done:    62, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xef0001a0 | Added:    61, Done:    62, Latency:     1
-[+] 63   		[=] (Return) Type: WRITE           | Addr: 0x1f0001a0 | Added:    62, Done:    63, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x3f0001a0 | Added:    62, Done:    63, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x5f0001a0 | Added:    62, Done:    63, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x7f0001a0 | Added:    62, Done:    63, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x9f0001a0 | Added:    62, Done:    63, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xbf0001a0 | Added:    62, Done:    63, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xdf0001a0 | Added:    62, Done:    63, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xff0001a0 | Added:    62, Done:    63, Latency:     1
-[+] 64   		[=] (Return) Type: WRITE           | Addr: 0x0f8001a0 | Added:    63, Done:    64, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x2f8001a0 | Added:    63, Done:    64, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x4f8001a0 | Added:    63, Done:    64, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x6f8001a0 | Added:    63, Done:    64, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x8f8001a0 | Added:    63, Done:    64, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xaf8001a0 | Added:    63, Done:    64, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xcf8001a0 | Added:    63, Done:    64, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xef8001a0 | Added:    63, Done:    64, Latency:     1
-[+] 65   		[=] (Return) Type: WRITE           | Addr: 0x1f8001a0 | Added:    64, Done:    65, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x3f8001a0 | Added:    64, Done:    65, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x5f8001a0 | Added:    64, Done:    65, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x7f8001a0 | Added:    64, Done:    65, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0x9f8001a0 | Added:    64, Done:    65, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xbf8001a0 | Added:    64, Done:    65, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xdf8001a0 | Added:    64, Done:    65, Latency:     1
-        		[=] (Return) Type: WRITE           | Addr: 0xff8001a0 | Added:    64, Done:    65, Latency:     1
+[+] 2    		[=] (Return) Type: WRITE           | Addr: 0x00058020 | Added:     1, Done:     2, Latency:     1
+[+] 3    		[=] (Return) Type: WRITE           | Addr: 0x00058040 | Added:     2, Done:     3, Latency:     1
+[+] 4    		[=] (Return) Type: WRITE           | Addr: 0x00058060 | Added:     3, Done:     4, Latency:     1
+[+] 5    		[=] (Return) Type: WRITE           | Addr: 0x00058080 | Added:     4, Done:     5, Latency:     1
+[+] 6    		[=] (Return) Type: WRITE           | Addr: 0x000580a0 | Added:     5, Done:     6, Latency:     1
+[+] 7    		[=] (Return) Type: WRITE           | Addr: 0x000580c0 | Added:     6, Done:     7, Latency:     1
+[+] 8    		[=] (Return) Type: WRITE           | Addr: 0x000580e0 | Added:     7, Done:     8, Latency:     1
+[+] 9    		[=] (Return) Type: WRITE           | Addr: 0x00058100 | Added:     8, Done:     9, Latency:     1
+[+] 10   		[=] (Return) Type: WRITE           | Addr: 0x00058120 | Added:     9, Done:    10, Latency:     1
+        		[*] (Issue)  Type: ACTIVATE        | Addr: 0x00058020 -> Channel:  0, BG: 0, Bank: 0, Row:    22, Col:  1
+[+] 11   		[=] (Return) Type: WRITE           | Addr: 0x00058140 | Added:    10, Done:    11, Latency:     1
+[+] 12   		[=] (Return) Type: WRITE           | Addr: 0x00058160 | Added:    11, Done:    12, Latency:     1
+[+] 13   		[=] (Return) Type: WRITE           | Addr: 0x00058180 | Added:    12, Done:    13, Latency:     1
+[+] 14   		[=] (Return) Type: WRITE           | Addr: 0x000581a0 | Added:    13, Done:    14, Latency:     1
+[+] 15   		[=] (Return) Type: WRITE           | Addr: 0x000581c0 | Added:    14, Done:    15, Latency:     1
+[+] 16   		[=] (Return) Type: WRITE           | Addr: 0x000581e0 | Added:    15, Done:    16, Latency:     1
+[+] 17   		[=] (Return) Type: WRITE           | Addr: 0x00058200 | Added:    16, Done:    17, Latency:     1
+[+] 18   		[=] (Return) Type: WRITE           | Addr: 0x00058220 | Added:    17, Done:    18, Latency:     1
+[+] 19   		[=] (Return) Type: WRITE           | Addr: 0x00058240 | Added:    18, Done:    19, Latency:     1
+[+] 20   		[=] (Return) Type: WRITE           | Addr: 0x00058260 | Added:    19, Done:    20, Latency:     1
+[+] 21   		[=] (Return) Type: WRITE           | Addr: 0x00058280 | Added:    20, Done:    21, Latency:     1
+[+] 22   		[=] (Return) Type: WRITE           | Addr: 0x000582a0 | Added:    21, Done:    22, Latency:     1
+[+] 23   		[=] (Return) Type: WRITE           | Addr: 0x000582c0 | Added:    22, Done:    23, Latency:     1
+[+] 24   		[=] (Return) Type: WRITE           | Addr: 0x000582e0 | Added:    23, Done:    24, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00058020 -> Channel:  0, BG: 0, Bank: 0, Row:    22, Col:  1
+[+] 25   		[=] (Return) Type: WRITE           | Addr: 0x00058300 | Added:    24, Done:    25, Latency:     1
+[+] 26   		[=] (Return) Type: WRITE           | Addr: 0x00058320 | Added:    25, Done:    26, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00058040 -> Channel:  0, BG: 0, Bank: 0, Row:    22, Col:  2
+[+] 27   		[=] (Return) Type: WRITE           | Addr: 0x00058340 | Added:    26, Done:    27, Latency:     1
+[+] 28   		[=] (Return) Type: WRITE           | Addr: 0x00058360 | Added:    27, Done:    28, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00058060 -> Channel:  0, BG: 0, Bank: 0, Row:    22, Col:  3
+[+] 29   		[=] (Return) Type: WRITE           | Addr: 0x00058380 | Added:    28, Done:    29, Latency:     1
+[+] 30   		[=] (Return) Type: WRITE           | Addr: 0x000583a0 | Added:    29, Done:    30, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00058080 -> Channel:  0, BG: 0, Bank: 0, Row:    22, Col:  4
+[+] 31   		[=] (Return) Type: WRITE           | Addr: 0x000583c0 | Added:    30, Done:    31, Latency:     1
+[+] 32   		[=] (Return) Type: WRITE           | Addr: 0x000583e0 | Added:    31, Done:    32, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x000580a0 -> Channel:  0, BG: 0, Bank: 0, Row:    22, Col:  5
+[+] 33   		[=] (Return) Type: WRITE           | Addr: 0x00058400 | Added:    32, Done:    33, Latency:     1
+[+] 34   		[=] (Return) Type: WRITE           | Addr: 0x00058420 | Added:    33, Done:    34, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x000580c0 -> Channel:  0, BG: 0, Bank: 0, Row:    22, Col:  6
+[+] 35   		[=] (Return) Type: WRITE           | Addr: 0x00058440 | Added:    34, Done:    35, Latency:     1
+[+] 36   		[=] (Return) Type: WRITE           | Addr: 0x00058460 | Added:    35, Done:    36, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x000580e0 -> Channel:  0, BG: 0, Bank: 0, Row:    22, Col:  7
+[+] 37   		[=] (Return) Type: WRITE           | Addr: 0x00058480 | Added:    36, Done:    37, Latency:     1
+[+] 38   		[=] (Return) Type: WRITE           | Addr: 0x000584a0 | Added:    37, Done:    38, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00058100 -> Channel:  0, BG: 0, Bank: 0, Row:    22, Col:  8
+[+] 39   		[=] (Return) Type: WRITE           | Addr: 0x000584c0 | Added:    38, Done:    39, Latency:     1
+[+] 40   		[=] (Return) Type: WRITE           | Addr: 0x000584e0 | Added:    39, Done:    40, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00058120 -> Channel:  0, BG: 0, Bank: 0, Row:    22, Col:  9
+[+] 41   		[=] (Return) Type: WRITE           | Addr: 0x00058500 | Added:    40, Done:    41, Latency:     1
+[+] 42   		[=] (Return) Type: WRITE           | Addr: 0x00058520 | Added:    41, Done:    42, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00058140 -> Channel:  0, BG: 0, Bank: 0, Row:    22, Col: 10
+[+] 43   		[=] (Return) Type: WRITE           | Addr: 0x00058540 | Added:    42, Done:    43, Latency:     1
+[+] 44   		[=] (Return) Type: WRITE           | Addr: 0x00058560 | Added:    43, Done:    44, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00058160 -> Channel:  0, BG: 0, Bank: 0, Row:    22, Col: 11
+[+] 45   		[=] (Return) Type: WRITE           | Addr: 0x00058580 | Added:    44, Done:    45, Latency:     1
+[+] 46   		[=] (Return) Type: WRITE           | Addr: 0x000585a0 | Added:    45, Done:    46, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00058180 -> Channel:  0, BG: 0, Bank: 0, Row:    22, Col: 12
+[+] 47   		[=] (Return) Type: WRITE           | Addr: 0x000585c0 | Added:    46, Done:    47, Latency:     1
+[+] 48   		[=] (Return) Type: WRITE           | Addr: 0x000585e0 | Added:    47, Done:    48, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x000581a0 -> Channel:  0, BG: 0, Bank: 0, Row:    22, Col: 13
+[+] 49   		[=] (Return) Type: WRITE           | Addr: 0x00058600 | Added:    48, Done:    49, Latency:     1
+[+] 50   		[=] (Return) Type: WRITE           | Addr: 0x00058620 | Added:    49, Done:    50, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x000581c0 -> Channel:  0, BG: 0, Bank: 0, Row:    22, Col: 14
+[+] 51   		[=] (Return) Type: WRITE           | Addr: 0x00058640 | Added:    50, Done:    51, Latency:     1
+[+] 52   		[=] (Return) Type: WRITE           | Addr: 0x00058660 | Added:    51, Done:    52, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x000581e0 -> Channel:  0, BG: 0, Bank: 0, Row:    22, Col: 15
+[+] 53   		[=] (Return) Type: WRITE           | Addr: 0x00058680 | Added:    52, Done:    53, Latency:     1
+[+] 54   		[=] (Return) Type: WRITE           | Addr: 0x000586a0 | Added:    53, Done:    54, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00058200 -> Channel:  0, BG: 0, Bank: 0, Row:    22, Col: 16
+[+] 55   		[=] (Return) Type: WRITE           | Addr: 0x000586c0 | Added:    54, Done:    55, Latency:     1
+[+] 56   		[=] (Return) Type: WRITE           | Addr: 0x000586e0 | Added:    55, Done:    56, Latency:     1
+        		[*] (Issue)  Type: ACTIVATE        | Addr: 0x00058400 -> Channel:  0, BG: 0, Bank: 1, Row:    22, Col:  0
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00058220 -> Channel:  0, BG: 0, Bank: 0, Row:    22, Col: 17
+[+] 57   		[=] (Return) Type: WRITE           | Addr: 0x00058700 | Added:    56, Done:    57, Latency:     1
+[+] 58   		[=] (Return) Type: WRITE           | Addr: 0x00058720 | Added:    57, Done:    58, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00058240 -> Channel:  0, BG: 0, Bank: 0, Row:    22, Col: 18
+[+] 59   		[=] (Return) Type: WRITE           | Addr: 0x00058740 | Added:    58, Done:    59, Latency:     1
+[+] 60   		[=] (Return) Type: WRITE           | Addr: 0x00058760 | Added:    59, Done:    60, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00058260 -> Channel:  0, BG: 0, Bank: 0, Row:    22, Col: 19
+[+] 61   		[=] (Return) Type: WRITE           | Addr: 0x00058780 | Added:    60, Done:    61, Latency:     1
+[+] 62   		[=] (Return) Type: WRITE           | Addr: 0x000587a0 | Added:    61, Done:    62, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00058280 -> Channel:  0, BG: 0, Bank: 0, Row:    22, Col: 20
+[+] 63   		[=] (Return) Type: WRITE           | Addr: 0x000587c0 | Added:    62, Done:    63, Latency:     1
+[+] 64   		[=] (Return) Type: WRITE           | Addr: 0x000587e0 | Added:    63, Done:    64, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x000582a0 -> Channel:  0, BG: 0, Bank: 0, Row:    22, Col: 21
+[+] 65   		[=] (Return) Type: WRITE           | Addr: 0x00058800 | Added:    64, Done:    65, Latency:     1
+[+] 66   		[=] (Return) Type: WRITE           | Addr: 0x00058820 | Added:    65, Done:    66, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x000582c0 -> Channel:  0, BG: 0, Bank: 0, Row:    22, Col: 22
+[+] 67   		[=] (Return) Type: WRITE           | Addr: 0x00058840 | Added:    66, Done:    67, Latency:     1
+[+] 68   		[=] (Return) Type: WRITE           | Addr: 0x00058860 | Added:    67, Done:    68, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x000582e0 -> Channel:  0, BG: 0, Bank: 0, Row:    22, Col: 23
+[+] 69   		[=] (Return) Type: WRITE           | Addr: 0x00058880 | Added:    68, Done:    69, Latency:     1
+[+] 70   		[=] (Return) Type: WRITE           | Addr: 0x000588a0 | Added:    69, Done:    70, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00058400 -> Channel:  0, BG: 0, Bank: 1, Row:    22, Col:  0
+[+] 71   		[=] (Return) Type: WRITE           | Addr: 0x000588c0 | Added:    70, Done:    71, Latency:     1
+[+] 72   		[=] (Return) Type: WRITE           | Addr: 0x000588e0 | Added:    71, Done:    72, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00058300 -> Channel:  0, BG: 0, Bank: 0, Row:    22, Col: 24
+[+] 73   		[=] (Return) Type: WRITE           | Addr: 0x00058900 | Added:    72, Done:    73, Latency:     1
+        		[*] (Issue)  Type: ACTIVATE        | Addr: 0x00058800 -> Channel:  0, BG: 0, Bank: 2, Row:    22, Col:  0
+[+] 74   		[=] (Return) Type: WRITE           | Addr: 0x00058920 | Added:    73, Done:    74, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00058320 -> Channel:  0, BG: 0, Bank: 0, Row:    22, Col: 25
+[+] 75   		[=] (Return) Type: WRITE           | Addr: 0x00058940 | Added:    74, Done:    75, Latency:     1
+[+] 76   		[=] (Return) Type: WRITE           | Addr: 0x00058960 | Added:    75, Done:    76, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00058420 -> Channel:  0, BG: 0, Bank: 1, Row:    22, Col:  1
+[+] 77   		[=] (Return) Type: WRITE           | Addr: 0x00058980 | Added:    76, Done:    77, Latency:     1
+[+] 78   		[=] (Return) Type: WRITE           | Addr: 0x000589a0 | Added:    77, Done:    78, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00058340 -> Channel:  0, BG: 0, Bank: 0, Row:    22, Col: 26
+[+] 79   		[=] (Return) Type: WRITE           | Addr: 0x000589c0 | Added:    78, Done:    79, Latency:     1
+[+] 80   		[=] (Return) Type: WRITE           | Addr: 0x000589e0 | Added:    79, Done:    80, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00058440 -> Channel:  0, BG: 0, Bank: 1, Row:    22, Col:  2
+[+] 81   		[=] (Return) Type: WRITE           | Addr: 0x00058a00 | Added:    80, Done:    81, Latency:     1
+[+] 82   		[=] (Return) Type: WRITE           | Addr: 0x00058a20 | Added:    81, Done:    82, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00058360 -> Channel:  0, BG: 0, Bank: 0, Row:    22, Col: 27
+[+] 83   		[=] (Return) Type: WRITE           | Addr: 0x00058a40 | Added:    82, Done:    83, Latency:     1
+[+] 84   		[*] (Issue)  Type: WRITE           | Addr: 0x00058460 -> Channel:  0, BG: 0, Bank: 1, Row:    22, Col:  3
+[+] 86   		[=] (Return) Type: WRITE           | Addr: 0x00058a60 | Added:    85, Done:    86, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00058380 -> Channel:  0, BG: 0, Bank: 0, Row:    22, Col: 28
+[+] 88   		[*] (Issue)  Type: WRITE           | Addr: 0x00058480 -> Channel:  0, BG: 0, Bank: 1, Row:    22, Col:  4
+[+] 90   		[=] (Return) Type: WRITE           | Addr: 0x00058a80 | Added:    89, Done:    90, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00058800 -> Channel:  0, BG: 0, Bank: 2, Row:    22, Col:  0
+[+] 92   		[=] (Return) Type: WRITE           | Addr: 0x00058aa0 | Added:    91, Done:    92, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x000583a0 -> Channel:  0, BG: 0, Bank: 0, Row:    22, Col: 29
+[+] 94   		[*] (Issue)  Type: WRITE           | Addr: 0x000584a0 -> Channel:  0, BG: 0, Bank: 1, Row:    22, Col:  5
+[+] 96   		[=] (Return) Type: WRITE           | Addr: 0x00058ac0 | Added:    95, Done:    96, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00058820 -> Channel:  0, BG: 0, Bank: 2, Row:    22, Col:  1
+[+] 98   		[=] (Return) Type: WRITE           | Addr: 0x00058ae0 | Added:    97, Done:    98, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x000583c0 -> Channel:  0, BG: 0, Bank: 0, Row:    22, Col: 30
+[+] 100  		[*] (Issue)  Type: WRITE           | Addr: 0x000584c0 -> Channel:  0, BG: 0, Bank: 1, Row:    22, Col:  6
+[+] 102  		[=] (Return) Type: WRITE           | Addr: 0x00058b00 | Added:   101, Done:   102, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00058840 -> Channel:  0, BG: 0, Bank: 2, Row:    22, Col:  2
+[+] 104  		[=] (Return) Type: WRITE           | Addr: 0x00058b20 | Added:   103, Done:   104, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x000583e0 -> Channel:  0, BG: 0, Bank: 0, Row:    22, Col: 31
+[+] 106  		[*] (Issue)  Type: WRITE           | Addr: 0x000584e0 -> Channel:  0, BG: 0, Bank: 1, Row:    22, Col:  7
+[+] 108  		[=] (Return) Type: WRITE           | Addr: 0x00058b40 | Added:   107, Done:   108, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00058860 -> Channel:  0, BG: 0, Bank: 2, Row:    22, Col:  3
+[+] 110  		[=] (Return) Type: WRITE           | Addr: 0x00058b60 | Added:   109, Done:   110, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00058500 -> Channel:  0, BG: 0, Bank: 1, Row:    22, Col:  8
+[+] 112  		[=] (Return) Type: WRITE           | Addr: 0x00058b80 | Added:   111, Done:   112, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00058880 -> Channel:  0, BG: 0, Bank: 2, Row:    22, Col:  4
+[+] 114  		[=] (Return) Type: WRITE           | Addr: 0x00058ba0 | Added:   113, Done:   114, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00058520 -> Channel:  0, BG: 0, Bank: 1, Row:    22, Col:  9
+[+] 116  		[=] (Return) Type: WRITE           | Addr: 0x00058bc0 | Added:   115, Done:   116, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x000588a0 -> Channel:  0, BG: 0, Bank: 2, Row:    22, Col:  5
+[+] 118  		[=] (Return) Type: WRITE           | Addr: 0x00058be0 | Added:   117, Done:   118, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00058540 -> Channel:  0, BG: 0, Bank: 1, Row:    22, Col: 10
+[+] 120  		[=] (Return) Type: WRITE           | Addr: 0x00058c00 | Added:   119, Done:   120, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x000588c0 -> Channel:  0, BG: 0, Bank: 2, Row:    22, Col:  6
+        		[*] (Issue)  Type: ACTIVATE        | Addr: 0x00058c00 -> Channel:  0, BG: 0, Bank: 3, Row:    22, Col:  0
+[+] 121  		[=] (Return) Type: WRITE           | Addr: 0x00058c20 | Added:   120, Done:   121, Latency:     1
+[+] 122  		[=] (Return) Type: WRITE           | Addr: 0x00058c40 | Added:   121, Done:   122, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00058560 -> Channel:  0, BG: 0, Bank: 1, Row:    22, Col: 11
+[+] 123  		[=] (Return) Type: WRITE           | Addr: 0x00058c60 | Added:   122, Done:   123, Latency:     1
+[+] 124  		[=] (Return) Type: WRITE           | Addr: 0x00058c80 | Added:   123, Done:   124, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x000588e0 -> Channel:  0, BG: 0, Bank: 2, Row:    22, Col:  7
+[+] 125  		[=] (Return) Type: WRITE           | Addr: 0x00058ca0 | Added:   124, Done:   125, Latency:     1
+[+] 126  		[=] (Return) Type: WRITE           | Addr: 0x00058cc0 | Added:   125, Done:   126, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00058580 -> Channel:  0, BG: 0, Bank: 1, Row:    22, Col: 12
+[+] 127  		[=] (Return) Type: WRITE           | Addr: 0x00058ce0 | Added:   126, Done:   127, Latency:     1
+[+] 128  		[=] (Return) Type: WRITE           | Addr: 0x00058d00 | Added:   127, Done:   128, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00058900 -> Channel:  0, BG: 0, Bank: 2, Row:    22, Col:  8
+[+] 129  		[=] (Return) Type: WRITE           | Addr: 0x00058d20 | Added:   128, Done:   129, Latency:     1
+[+] 130  		[=] (Return) Type: WRITE           | Addr: 0x00058d40 | Added:   129, Done:   130, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x000585a0 -> Channel:  0, BG: 0, Bank: 1, Row:    22, Col: 13
+[+] 131  		[=] (Return) Type: WRITE           | Addr: 0x00058d60 | Added:   130, Done:   131, Latency:     1
+[+] 132  		[=] (Return) Type: WRITE           | Addr: 0x00058d80 | Added:   131, Done:   132, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00058920 -> Channel:  0, BG: 0, Bank: 2, Row:    22, Col:  9
+[+] 133  		[=] (Return) Type: WRITE           | Addr: 0x00058da0 | Added:   132, Done:   133, Latency:     1
+[+] 134  		[=] (Return) Type: WRITE           | Addr: 0x00058dc0 | Added:   133, Done:   134, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00058c00 -> Channel:  0, BG: 0, Bank: 3, Row:    22, Col:  0
+[+] 135  		[=] (Return) Type: WRITE           | Addr: 0x00058de0 | Added:   134, Done:   135, Latency:     1
+[+] 136  		[=] (Return) Type: WRITE           | Addr: 0x00058e00 | Added:   135, Done:   136, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x000585c0 -> Channel:  0, BG: 0, Bank: 1, Row:    22, Col: 14
+[+] 138  		[=] (Return) Type: WRITE           | Addr: 0x00058e20 | Added:   137, Done:   138, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00058940 -> Channel:  0, BG: 0, Bank: 2, Row:    22, Col: 10
+[+] 140  		[=] (Return) Type: WRITE           | Addr: 0x00058e40 | Added:   139, Done:   140, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00058c20 -> Channel:  0, BG: 0, Bank: 3, Row:    22, Col:  1
+[+] 142  		[=] (Return) Type: WRITE           | Addr: 0x00058e60 | Added:   141, Done:   142, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x000585e0 -> Channel:  0, BG: 0, Bank: 1, Row:    22, Col: 15
+[+] 144  		[=] (Return) Type: WRITE           | Addr: 0x00058e80 | Added:   143, Done:   144, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00058960 -> Channel:  0, BG: 0, Bank: 2, Row:    22, Col: 11
+[+] 146  		[=] (Return) Type: WRITE           | Addr: 0x00058ea0 | Added:   145, Done:   146, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00058c40 -> Channel:  0, BG: 0, Bank: 3, Row:    22, Col:  2
+[+] 148  		[=] (Return) Type: WRITE           | Addr: 0x00058ec0 | Added:   147, Done:   148, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00058600 -> Channel:  0, BG: 0, Bank: 1, Row:    22, Col: 16
+[+] 150  		[=] (Return) Type: WRITE           | Addr: 0x00058ee0 | Added:   149, Done:   150, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00058980 -> Channel:  0, BG: 0, Bank: 2, Row:    22, Col: 12
+[+] 152  		[=] (Return) Type: WRITE           | Addr: 0x00058f00 | Added:   151, Done:   152, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00058c60 -> Channel:  0, BG: 0, Bank: 3, Row:    22, Col:  3
+[+] 154  		[=] (Return) Type: WRITE           | Addr: 0x00058f20 | Added:   153, Done:   154, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00058620 -> Channel:  0, BG: 0, Bank: 1, Row:    22, Col: 17
+[+] 156  		[=] (Return) Type: WRITE           | Addr: 0x00058f40 | Added:   155, Done:   156, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x000589a0 -> Channel:  0, BG: 0, Bank: 2, Row:    22, Col: 13
+[+] 158  		[=] (Return) Type: WRITE           | Addr: 0x00058f60 | Added:   157, Done:   158, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00058c80 -> Channel:  0, BG: 0, Bank: 3, Row:    22, Col:  4
+[+] 160  		[=] (Return) Type: WRITE           | Addr: 0x00058f80 | Added:   159, Done:   160, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00058640 -> Channel:  0, BG: 0, Bank: 1, Row:    22, Col: 18
+[+] 162  		[=] (Return) Type: WRITE           | Addr: 0x00058fa0 | Added:   161, Done:   162, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x000589c0 -> Channel:  0, BG: 0, Bank: 2, Row:    22, Col: 14
+[+] 164  		[=] (Return) Type: WRITE           | Addr: 0x00058fc0 | Added:   163, Done:   164, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00058ca0 -> Channel:  0, BG: 0, Bank: 3, Row:    22, Col:  5
+[+] 166  		[=] (Return) Type: WRITE           | Addr: 0x00058fe0 | Added:   165, Done:   166, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00058660 -> Channel:  0, BG: 0, Bank: 1, Row:    22, Col: 19
+[+] 168  		[=] (Return) Type: WRITE           | Addr: 0x00059000 | Added:   167, Done:   168, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x000589e0 -> Channel:  0, BG: 0, Bank: 2, Row:    22, Col: 15
+        		[*] (Issue)  Type: ACTIVATE        | Addr: 0x00059000 -> Channel:  0, BG: 1, Bank: 0, Row:    22, Col:  0
+[+] 169  		[=] (Return) Type: WRITE           | Addr: 0x00059020 | Added:   168, Done:   169, Latency:     1
+[+] 170  		[=] (Return) Type: WRITE           | Addr: 0x00059040 | Added:   169, Done:   170, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00058680 -> Channel:  0, BG: 0, Bank: 1, Row:    22, Col: 20
+[+] 171  		[=] (Return) Type: WRITE           | Addr: 0x00059060 | Added:   170, Done:   171, Latency:     1
+[+] 172  		[=] (Return) Type: WRITE           | Addr: 0x00059080 | Added:   171, Done:   172, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00058a00 -> Channel:  0, BG: 0, Bank: 2, Row:    22, Col: 16
+[+] 173  		[=] (Return) Type: WRITE           | Addr: 0x000590a0 | Added:   172, Done:   173, Latency:     1
+[+] 174  		[=] (Return) Type: WRITE           | Addr: 0x000590c0 | Added:   173, Done:   174, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00058cc0 -> Channel:  0, BG: 0, Bank: 3, Row:    22, Col:  6
+[+] 175  		[=] (Return) Type: WRITE           | Addr: 0x000590e0 | Added:   174, Done:   175, Latency:     1
+[+] 176  		[=] (Return) Type: WRITE           | Addr: 0x00059100 | Added:   175, Done:   176, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x000586a0 -> Channel:  0, BG: 0, Bank: 1, Row:    22, Col: 21
+[+] 177  		[=] (Return) Type: WRITE           | Addr: 0x00059120 | Added:   176, Done:   177, Latency:     1
+[+] 178  		[=] (Return) Type: WRITE           | Addr: 0x00059140 | Added:   177, Done:   178, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00058a20 -> Channel:  0, BG: 0, Bank: 2, Row:    22, Col: 17
+[+] 179  		[=] (Return) Type: WRITE           | Addr: 0x00059160 | Added:   178, Done:   179, Latency:     1
+[+] 180  		[=] (Return) Type: WRITE           | Addr: 0x00059180 | Added:   179, Done:   180, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00058ce0 -> Channel:  0, BG: 0, Bank: 3, Row:    22, Col:  7
+[+] 181  		[=] (Return) Type: WRITE           | Addr: 0x000591a0 | Added:   180, Done:   181, Latency:     1
+[+] 182  		[=] (Return) Type: WRITE           | Addr: 0x000591c0 | Added:   181, Done:   182, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00059000 -> Channel:  0, BG: 1, Bank: 0, Row:    22, Col:  0
+[+] 183  		[=] (Return) Type: WRITE           | Addr: 0x000591e0 | Added:   182, Done:   183, Latency:     1
+[+] 184  		[=] (Return) Type: WRITE           | Addr: 0x00059200 | Added:   183, Done:   184, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x000586c0 -> Channel:  0, BG: 0, Bank: 1, Row:    22, Col: 22
+[+] 186  		[=] (Return) Type: WRITE           | Addr: 0x00059220 | Added:   185, Done:   186, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00058a40 -> Channel:  0, BG: 0, Bank: 2, Row:    22, Col: 18
+[+] 188  		[=] (Return) Type: WRITE           | Addr: 0x00059240 | Added:   187, Done:   188, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00058d00 -> Channel:  0, BG: 0, Bank: 3, Row:    22, Col:  8
+[+] 190  		[=] (Return) Type: WRITE           | Addr: 0x00059260 | Added:   189, Done:   190, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00059020 -> Channel:  0, BG: 1, Bank: 0, Row:    22, Col:  1
+[+] 192  		[=] (Return) Type: WRITE           | Addr: 0x00059280 | Added:   191, Done:   192, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x000586e0 -> Channel:  0, BG: 0, Bank: 1, Row:    22, Col: 23
+[+] 194  		[=] (Return) Type: WRITE           | Addr: 0x000592a0 | Added:   193, Done:   194, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00058a60 -> Channel:  0, BG: 0, Bank: 2, Row:    22, Col: 19
+[+] 196  		[=] (Return) Type: WRITE           | Addr: 0x000592c0 | Added:   195, Done:   196, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00058d20 -> Channel:  0, BG: 0, Bank: 3, Row:    22, Col:  9
+[+] 198  		[=] (Return) Type: WRITE           | Addr: 0x000592e0 | Added:   197, Done:   198, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00059040 -> Channel:  0, BG: 1, Bank: 0, Row:    22, Col:  2
+[+] 200  		[=] (Return) Type: WRITE           | Addr: 0x00059300 | Added:   199, Done:   200, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00058700 -> Channel:  0, BG: 0, Bank: 1, Row:    22, Col: 24
+[+] 202  		[*] (Issue)  Type: WRITE           | Addr: 0x00058a80 -> Channel:  0, BG: 0, Bank: 2, Row:    22, Col: 20
+[+] 204  		[=] (Return) Type: WRITE           | Addr: 0x00059320 | Added:   203, Done:   204, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00058d40 -> Channel:  0, BG: 0, Bank: 3, Row:    22, Col: 10
+[+] 206  		[=] (Return) Type: WRITE           | Addr: 0x00059340 | Added:   205, Done:   206, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00059060 -> Channel:  0, BG: 1, Bank: 0, Row:    22, Col:  3
+[+] 208  		[=] (Return) Type: WRITE           | Addr: 0x00059360 | Added:   207, Done:   208, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00058720 -> Channel:  0, BG: 0, Bank: 1, Row:    22, Col: 25
+[+] 210  		[*] (Issue)  Type: WRITE           | Addr: 0x00058aa0 -> Channel:  0, BG: 0, Bank: 2, Row:    22, Col: 21
+[+] 212  		[=] (Return) Type: WRITE           | Addr: 0x00059380 | Added:   211, Done:   212, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00058d60 -> Channel:  0, BG: 0, Bank: 3, Row:    22, Col: 11
+[+] 214  		[=] (Return) Type: WRITE           | Addr: 0x000593a0 | Added:   213, Done:   214, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00059080 -> Channel:  0, BG: 1, Bank: 0, Row:    22, Col:  4
+[+] 216  		[=] (Return) Type: WRITE           | Addr: 0x000593c0 | Added:   215, Done:   216, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00058740 -> Channel:  0, BG: 0, Bank: 1, Row:    22, Col: 26
+[+] 218  		[*] (Issue)  Type: WRITE           | Addr: 0x00058ac0 -> Channel:  0, BG: 0, Bank: 2, Row:    22, Col: 22
+[+] 220  		[=] (Return) Type: WRITE           | Addr: 0x000593e0 | Added:   219, Done:   220, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00058d80 -> Channel:  0, BG: 0, Bank: 3, Row:    22, Col: 12
+[+] 222  		[=] (Return) Type: WRITE           | Addr: 0x00059400 | Added:   221, Done:   222, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x000590a0 -> Channel:  0, BG: 1, Bank: 0, Row:    22, Col:  5
+        		[*] (Issue)  Type: ACTIVATE        | Addr: 0x00059400 -> Channel:  0, BG: 1, Bank: 1, Row:    22, Col:  0
+[+] 223  		[=] (Return) Type: WRITE           | Addr: 0x00059420 | Added:   222, Done:   223, Latency:     1
+[+] 224  		[=] (Return) Type: WRITE           | Addr: 0x00059440 | Added:   223, Done:   224, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00058760 -> Channel:  0, BG: 0, Bank: 1, Row:    22, Col: 27
+[+] 225  		[=] (Return) Type: WRITE           | Addr: 0x00059460 | Added:   224, Done:   225, Latency:     1
+[+] 226  		[=] (Return) Type: WRITE           | Addr: 0x00059480 | Added:   225, Done:   226, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00058ae0 -> Channel:  0, BG: 0, Bank: 2, Row:    22, Col: 23
+[+] 227  		[=] (Return) Type: WRITE           | Addr: 0x000594a0 | Added:   226, Done:   227, Latency:     1
+[+] 228  		[=] (Return) Type: WRITE           | Addr: 0x000594c0 | Added:   227, Done:   228, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00058da0 -> Channel:  0, BG: 0, Bank: 3, Row:    22, Col: 13
+[+] 229  		[=] (Return) Type: WRITE           | Addr: 0x000594e0 | Added:   228, Done:   229, Latency:     1
+[+] 230  		[=] (Return) Type: WRITE           | Addr: 0x00059500 | Added:   229, Done:   230, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x000590c0 -> Channel:  0, BG: 1, Bank: 0, Row:    22, Col:  6
+[+] 231  		[=] (Return) Type: WRITE           | Addr: 0x00059520 | Added:   230, Done:   231, Latency:     1
+[+] 232  		[=] (Return) Type: WRITE           | Addr: 0x00059540 | Added:   231, Done:   232, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00058780 -> Channel:  0, BG: 0, Bank: 1, Row:    22, Col: 28
+[+] 233  		[=] (Return) Type: WRITE           | Addr: 0x00059560 | Added:   232, Done:   233, Latency:     1
+[+] 234  		[=] (Return) Type: WRITE           | Addr: 0x00059580 | Added:   233, Done:   234, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00058b00 -> Channel:  0, BG: 0, Bank: 2, Row:    22, Col: 24
+[+] 236  		[*] (Issue)  Type: WRITE           | Addr: 0x00058dc0 -> Channel:  0, BG: 0, Bank: 3, Row:    22, Col: 14
+[+] 238  		[=] (Return) Type: WRITE           | Addr: 0x000595a0 | Added:   237, Done:   238, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x000590e0 -> Channel:  0, BG: 1, Bank: 0, Row:    22, Col:  7
+[+] 240  		[=] (Return) Type: WRITE           | Addr: 0x000595c0 | Added:   239, Done:   240, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00059400 -> Channel:  0, BG: 1, Bank: 1, Row:    22, Col:  0
+[+] 242  		[=] (Return) Type: WRITE           | Addr: 0x000595e0 | Added:   241, Done:   242, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x000587a0 -> Channel:  0, BG: 0, Bank: 1, Row:    22, Col: 29
+[+] 244  		[*] (Issue)  Type: WRITE           | Addr: 0x00058b20 -> Channel:  0, BG: 0, Bank: 2, Row:    22, Col: 25
+[+] 246  		[*] (Issue)  Type: WRITE           | Addr: 0x00058de0 -> Channel:  0, BG: 0, Bank: 3, Row:    22, Col: 15
+[+] 248  		[=] (Return) Type: WRITE           | Addr: 0x00059600 | Added:   247, Done:   248, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00059100 -> Channel:  0, BG: 1, Bank: 0, Row:    22, Col:  8
+[+] 250  		[=] (Return) Type: WRITE           | Addr: 0x00059620 | Added:   249, Done:   250, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00059420 -> Channel:  0, BG: 1, Bank: 1, Row:    22, Col:  1
+[+] 252  		[=] (Return) Type: WRITE           | Addr: 0x00059640 | Added:   251, Done:   252, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x000587c0 -> Channel:  0, BG: 0, Bank: 1, Row:    22, Col: 30
+[+] 254  		[*] (Issue)  Type: WRITE           | Addr: 0x00058b40 -> Channel:  0, BG: 0, Bank: 2, Row:    22, Col: 26
+[+] 256  		[*] (Issue)  Type: WRITE           | Addr: 0x00058e00 -> Channel:  0, BG: 0, Bank: 3, Row:    22, Col: 16
+[+] 258  		[=] (Return) Type: WRITE           | Addr: 0x00059660 | Added:   257, Done:   258, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00059120 -> Channel:  0, BG: 1, Bank: 0, Row:    22, Col:  9
+[+] 260  		[=] (Return) Type: WRITE           | Addr: 0x00059680 | Added:   259, Done:   260, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00059440 -> Channel:  0, BG: 1, Bank: 1, Row:    22, Col:  2
+[+] 262  		[=] (Return) Type: WRITE           | Addr: 0x000596a0 | Added:   261, Done:   262, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x000587e0 -> Channel:  0, BG: 0, Bank: 1, Row:    22, Col: 31
+[+] 264  		[*] (Issue)  Type: WRITE           | Addr: 0x00058b60 -> Channel:  0, BG: 0, Bank: 2, Row:    22, Col: 27
+[+] 266  		[*] (Issue)  Type: WRITE           | Addr: 0x00058e20 -> Channel:  0, BG: 0, Bank: 3, Row:    22, Col: 17
+[+] 268  		[=] (Return) Type: WRITE           | Addr: 0x000596c0 | Added:   267, Done:   268, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00059140 -> Channel:  0, BG: 1, Bank: 0, Row:    22, Col: 10
+[+] 270  		[=] (Return) Type: WRITE           | Addr: 0x000596e0 | Added:   269, Done:   270, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00059460 -> Channel:  0, BG: 1, Bank: 1, Row:    22, Col:  3
+[+] 272  		[=] (Return) Type: WRITE           | Addr: 0x00059700 | Added:   271, Done:   272, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00058b80 -> Channel:  0, BG: 0, Bank: 2, Row:    22, Col: 28
+[+] 274  		[*] (Issue)  Type: WRITE           | Addr: 0x00058e40 -> Channel:  0, BG: 0, Bank: 3, Row:    22, Col: 18
+[+] 276  		[=] (Return) Type: WRITE           | Addr: 0x00059720 | Added:   275, Done:   276, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00059160 -> Channel:  0, BG: 1, Bank: 0, Row:    22, Col: 11
+[+] 278  		[=] (Return) Type: WRITE           | Addr: 0x00059740 | Added:   277, Done:   278, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00059480 -> Channel:  0, BG: 1, Bank: 1, Row:    22, Col:  4
+[+] 280  		[=] (Return) Type: WRITE           | Addr: 0x00059760 | Added:   279, Done:   280, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00058ba0 -> Channel:  0, BG: 0, Bank: 2, Row:    22, Col: 29
+[+] 282  		[*] (Issue)  Type: WRITE           | Addr: 0x00058e60 -> Channel:  0, BG: 0, Bank: 3, Row:    22, Col: 19
+[+] 284  		[=] (Return) Type: WRITE           | Addr: 0x00059780 | Added:   283, Done:   284, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00059180 -> Channel:  0, BG: 1, Bank: 0, Row:    22, Col: 12
+[+] 286  		[=] (Return) Type: WRITE           | Addr: 0x000597a0 | Added:   285, Done:   286, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x000594a0 -> Channel:  0, BG: 1, Bank: 1, Row:    22, Col:  5
+[+] 288  		[=] (Return) Type: WRITE           | Addr: 0x000597c0 | Added:   287, Done:   288, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00058bc0 -> Channel:  0, BG: 0, Bank: 2, Row:    22, Col: 30
+[+] 290  		[*] (Issue)  Type: WRITE           | Addr: 0x00058e80 -> Channel:  0, BG: 0, Bank: 3, Row:    22, Col: 20
+[+] 292  		[=] (Return) Type: WRITE           | Addr: 0x000597e0 | Added:   291, Done:   292, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x000591a0 -> Channel:  0, BG: 1, Bank: 0, Row:    22, Col: 13
+[+] 294  		[=] (Return) Type: WRITE           | Addr: 0x00059800 | Added:   293, Done:   294, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x000594c0 -> Channel:  0, BG: 1, Bank: 1, Row:    22, Col:  6
+        		[*] (Issue)  Type: ACTIVATE        | Addr: 0x00059800 -> Channel:  0, BG: 1, Bank: 2, Row:    22, Col:  0
+[+] 295  		[=] (Return) Type: WRITE           | Addr: 0x00059820 | Added:   294, Done:   295, Latency:     1
+[+] 296  		[=] (Return) Type: WRITE           | Addr: 0x00059840 | Added:   295, Done:   296, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00058be0 -> Channel:  0, BG: 0, Bank: 2, Row:    22, Col: 31
+[+] 297  		[=] (Return) Type: WRITE           | Addr: 0x00059860 | Added:   296, Done:   297, Latency:     1
+[+] 298  		[=] (Return) Type: WRITE           | Addr: 0x00059880 | Added:   297, Done:   298, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00058ea0 -> Channel:  0, BG: 0, Bank: 3, Row:    22, Col: 21
+[+] 299  		[=] (Return) Type: WRITE           | Addr: 0x000598a0 | Added:   298, Done:   299, Latency:     1
+[+] 300  		[=] (Return) Type: WRITE           | Addr: 0x000598c0 | Added:   299, Done:   300, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x000591c0 -> Channel:  0, BG: 1, Bank: 0, Row:    22, Col: 14
+[+] 301  		[=] (Return) Type: WRITE           | Addr: 0x000598e0 | Added:   300, Done:   301, Latency:     1
+[+] 302  		[=] (Return) Type: WRITE           | Addr: 0x00059900 | Added:   301, Done:   302, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x000594e0 -> Channel:  0, BG: 1, Bank: 1, Row:    22, Col:  7
+[+] 303  		[=] (Return) Type: WRITE           | Addr: 0x00059920 | Added:   302, Done:   303, Latency:     1
+[+] 304  		[=] (Return) Type: WRITE           | Addr: 0x00059940 | Added:   303, Done:   304, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00058ec0 -> Channel:  0, BG: 0, Bank: 3, Row:    22, Col: 22
+[+] 305  		[=] (Return) Type: WRITE           | Addr: 0x00059960 | Added:   304, Done:   305, Latency:     1
+[+] 306  		[=] (Return) Type: WRITE           | Addr: 0x00059980 | Added:   305, Done:   306, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x000591e0 -> Channel:  0, BG: 1, Bank: 0, Row:    22, Col: 15
+[+] 307  		[=] (Return) Type: WRITE           | Addr: 0x000599a0 | Added:   306, Done:   307, Latency:     1
+[+] 308  		[=] (Return) Type: WRITE           | Addr: 0x000599c0 | Added:   307, Done:   308, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00059500 -> Channel:  0, BG: 1, Bank: 1, Row:    22, Col:  8
+[+] 310  		[=] (Return) Type: WRITE           | Addr: 0x000599e0 | Added:   309, Done:   310, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00059800 -> Channel:  0, BG: 1, Bank: 2, Row:    22, Col:  0
+[+] 312  		[=] (Return) Type: WRITE           | Addr: 0x00059a00 | Added:   311, Done:   312, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00058ee0 -> Channel:  0, BG: 0, Bank: 3, Row:    22, Col: 23
+[+] 314  		[=] (Return) Type: WRITE           | Addr: 0x00059a20 | Added:   313, Done:   314, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00059200 -> Channel:  0, BG: 1, Bank: 0, Row:    22, Col: 16
+[+] 316  		[=] (Return) Type: WRITE           | Addr: 0x00059a40 | Added:   315, Done:   316, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00059520 -> Channel:  0, BG: 1, Bank: 1, Row:    22, Col:  9
+[+] 318  		[=] (Return) Type: WRITE           | Addr: 0x00059a60 | Added:   317, Done:   318, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00059820 -> Channel:  0, BG: 1, Bank: 2, Row:    22, Col:  1
+[+] 320  		[=] (Return) Type: WRITE           | Addr: 0x00059a80 | Added:   319, Done:   320, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00058f00 -> Channel:  0, BG: 0, Bank: 3, Row:    22, Col: 24
+[+] 322  		[*] (Issue)  Type: WRITE           | Addr: 0x00059220 -> Channel:  0, BG: 1, Bank: 0, Row:    22, Col: 17
+[+] 324  		[=] (Return) Type: WRITE           | Addr: 0x00059aa0 | Added:   323, Done:   324, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00059540 -> Channel:  0, BG: 1, Bank: 1, Row:    22, Col: 10
+[+] 326  		[=] (Return) Type: WRITE           | Addr: 0x00059ac0 | Added:   325, Done:   326, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00059840 -> Channel:  0, BG: 1, Bank: 2, Row:    22, Col:  2
+[+] 328  		[=] (Return) Type: WRITE           | Addr: 0x00059ae0 | Added:   327, Done:   328, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00058f20 -> Channel:  0, BG: 0, Bank: 3, Row:    22, Col: 25
+[+] 330  		[*] (Issue)  Type: WRITE           | Addr: 0x00059240 -> Channel:  0, BG: 1, Bank: 0, Row:    22, Col: 18
+[+] 332  		[=] (Return) Type: WRITE           | Addr: 0x00059b00 | Added:   331, Done:   332, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00059560 -> Channel:  0, BG: 1, Bank: 1, Row:    22, Col: 11
+[+] 334  		[=] (Return) Type: WRITE           | Addr: 0x00059b20 | Added:   333, Done:   334, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00059860 -> Channel:  0, BG: 1, Bank: 2, Row:    22, Col:  3
+[+] 336  		[=] (Return) Type: WRITE           | Addr: 0x00059b40 | Added:   335, Done:   336, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00058f40 -> Channel:  0, BG: 0, Bank: 3, Row:    22, Col: 26
+[+] 338  		[*] (Issue)  Type: WRITE           | Addr: 0x00059260 -> Channel:  0, BG: 1, Bank: 0, Row:    22, Col: 19
+[+] 340  		[=] (Return) Type: WRITE           | Addr: 0x00059b60 | Added:   339, Done:   340, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00059580 -> Channel:  0, BG: 1, Bank: 1, Row:    22, Col: 12
+[+] 342  		[=] (Return) Type: WRITE           | Addr: 0x00059b80 | Added:   341, Done:   342, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00059880 -> Channel:  0, BG: 1, Bank: 2, Row:    22, Col:  4
+[+] 344  		[=] (Return) Type: WRITE           | Addr: 0x00059ba0 | Added:   343, Done:   344, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00058f60 -> Channel:  0, BG: 0, Bank: 3, Row:    22, Col: 27
+[+] 346  		[*] (Issue)  Type: WRITE           | Addr: 0x00059280 -> Channel:  0, BG: 1, Bank: 0, Row:    22, Col: 20
+[+] 348  		[=] (Return) Type: WRITE           | Addr: 0x00059bc0 | Added:   347, Done:   348, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x000595a0 -> Channel:  0, BG: 1, Bank: 1, Row:    22, Col: 13
+[+] 350  		[=] (Return) Type: WRITE           | Addr: 0x00059be0 | Added:   349, Done:   350, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x000598a0 -> Channel:  0, BG: 1, Bank: 2, Row:    22, Col:  5
+[+] 352  		[=] (Return) Type: WRITE           | Addr: 0x00059c00 | Added:   351, Done:   352, Latency:     1
+        		[*] (Issue)  Type: ACTIVATE        | Addr: 0x00059c00 -> Channel:  0, BG: 1, Bank: 3, Row:    22, Col:  0
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00058f80 -> Channel:  0, BG: 0, Bank: 3, Row:    22, Col: 28
+[+] 353  		[=] (Return) Type: WRITE           | Addr: 0x00059c20 | Added:   352, Done:   353, Latency:     1
+[+] 354  		[=] (Return) Type: WRITE           | Addr: 0x00059c40 | Added:   353, Done:   354, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x000592a0 -> Channel:  0, BG: 1, Bank: 0, Row:    22, Col: 21
+[+] 355  		[=] (Return) Type: WRITE           | Addr: 0x00059c60 | Added:   354, Done:   355, Latency:     1
+[+] 356  		[=] (Return) Type: WRITE           | Addr: 0x00059c80 | Added:   355, Done:   356, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x000595c0 -> Channel:  0, BG: 1, Bank: 1, Row:    22, Col: 14
+[+] 357  		[=] (Return) Type: WRITE           | Addr: 0x00059ca0 | Added:   356, Done:   357, Latency:     1
+[+] 358  		[=] (Return) Type: WRITE           | Addr: 0x00059cc0 | Added:   357, Done:   358, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x000598c0 -> Channel:  0, BG: 1, Bank: 2, Row:    22, Col:  6
+[+] 359  		[=] (Return) Type: WRITE           | Addr: 0x00059ce0 | Added:   358, Done:   359, Latency:     1
+[+] 360  		[=] (Return) Type: WRITE           | Addr: 0x00059d00 | Added:   359, Done:   360, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00058fa0 -> Channel:  0, BG: 0, Bank: 3, Row:    22, Col: 29
+[+] 361  		[=] (Return) Type: WRITE           | Addr: 0x00059d20 | Added:   360, Done:   361, Latency:     1
+[+] 362  		[=] (Return) Type: WRITE           | Addr: 0x00059d40 | Added:   361, Done:   362, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x000592c0 -> Channel:  0, BG: 1, Bank: 0, Row:    22, Col: 22
+[+] 363  		[=] (Return) Type: WRITE           | Addr: 0x00059d60 | Added:   362, Done:   363, Latency:     1
+[+] 364  		[=] (Return) Type: WRITE           | Addr: 0x00059d80 | Added:   363, Done:   364, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x000595e0 -> Channel:  0, BG: 1, Bank: 1, Row:    22, Col: 15
+[+] 366  		[=] (Return) Type: WRITE           | Addr: 0x00059da0 | Added:   365, Done:   366, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x000598e0 -> Channel:  0, BG: 1, Bank: 2, Row:    22, Col:  7
+[+] 368  		[=] (Return) Type: WRITE           | Addr: 0x00059dc0 | Added:   367, Done:   368, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00059c00 -> Channel:  0, BG: 1, Bank: 3, Row:    22, Col:  0
+[+] 370  		[=] (Return) Type: WRITE           | Addr: 0x00059de0 | Added:   369, Done:   370, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00058fc0 -> Channel:  0, BG: 0, Bank: 3, Row:    22, Col: 30
+[+] 372  		[*] (Issue)  Type: WRITE           | Addr: 0x000592e0 -> Channel:  0, BG: 1, Bank: 0, Row:    22, Col: 23
+[+] 374  		[=] (Return) Type: WRITE           | Addr: 0x00059e00 | Added:   373, Done:   374, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00059600 -> Channel:  0, BG: 1, Bank: 1, Row:    22, Col: 16
+[+] 376  		[=] (Return) Type: WRITE           | Addr: 0x00059e20 | Added:   375, Done:   376, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00059900 -> Channel:  0, BG: 1, Bank: 2, Row:    22, Col:  8
+[+] 378  		[=] (Return) Type: WRITE           | Addr: 0x00059e40 | Added:   377, Done:   378, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00059c20 -> Channel:  0, BG: 1, Bank: 3, Row:    22, Col:  1
+[+] 380  		[=] (Return) Type: WRITE           | Addr: 0x00059e60 | Added:   379, Done:   380, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00058fe0 -> Channel:  0, BG: 0, Bank: 3, Row:    22, Col: 31
+[+] 382  		[*] (Issue)  Type: WRITE           | Addr: 0x00059300 -> Channel:  0, BG: 1, Bank: 0, Row:    22, Col: 24
+[+] 384  		[*] (Issue)  Type: WRITE           | Addr: 0x00059620 -> Channel:  0, BG: 1, Bank: 1, Row:    22, Col: 17
+[+] 386  		[=] (Return) Type: WRITE           | Addr: 0x00059e80 | Added:   385, Done:   386, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00059920 -> Channel:  0, BG: 1, Bank: 2, Row:    22, Col:  9
+[+] 388  		[=] (Return) Type: WRITE           | Addr: 0x00059ea0 | Added:   387, Done:   388, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00059c40 -> Channel:  0, BG: 1, Bank: 3, Row:    22, Col:  2
+[+] 390  		[=] (Return) Type: WRITE           | Addr: 0x00059ec0 | Added:   389, Done:   390, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00059320 -> Channel:  0, BG: 1, Bank: 0, Row:    22, Col: 25
+[+] 392  		[*] (Issue)  Type: WRITE           | Addr: 0x00059640 -> Channel:  0, BG: 1, Bank: 1, Row:    22, Col: 18
+[+] 394  		[=] (Return) Type: WRITE           | Addr: 0x00059ee0 | Added:   393, Done:   394, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00059940 -> Channel:  0, BG: 1, Bank: 2, Row:    22, Col: 10
+[+] 396  		[=] (Return) Type: WRITE           | Addr: 0x00059f00 | Added:   395, Done:   396, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00059c60 -> Channel:  0, BG: 1, Bank: 3, Row:    22, Col:  3
+[+] 398  		[=] (Return) Type: WRITE           | Addr: 0x00059f20 | Added:   397, Done:   398, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00059340 -> Channel:  0, BG: 1, Bank: 0, Row:    22, Col: 26
+[+] 400  		[*] (Issue)  Type: WRITE           | Addr: 0x00059660 -> Channel:  0, BG: 1, Bank: 1, Row:    22, Col: 19
+[+] 402  		[=] (Return) Type: WRITE           | Addr: 0x00059f40 | Added:   401, Done:   402, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00059960 -> Channel:  0, BG: 1, Bank: 2, Row:    22, Col: 11
+[+] 404  		[=] (Return) Type: WRITE           | Addr: 0x00059f60 | Added:   403, Done:   404, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00059c80 -> Channel:  0, BG: 1, Bank: 3, Row:    22, Col:  4
+[+] 406  		[=] (Return) Type: WRITE           | Addr: 0x00059f80 | Added:   405, Done:   406, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00059360 -> Channel:  0, BG: 1, Bank: 0, Row:    22, Col: 27
+[+] 408  		[*] (Issue)  Type: WRITE           | Addr: 0x00059680 -> Channel:  0, BG: 1, Bank: 1, Row:    22, Col: 20
+[+] 410  		[=] (Return) Type: WRITE           | Addr: 0x00059fa0 | Added:   409, Done:   410, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00059980 -> Channel:  0, BG: 1, Bank: 2, Row:    22, Col: 12
+[+] 412  		[=] (Return) Type: WRITE           | Addr: 0x00059fc0 | Added:   411, Done:   412, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00059ca0 -> Channel:  0, BG: 1, Bank: 3, Row:    22, Col:  5
+[+] 414  		[=] (Return) Type: WRITE           | Addr: 0x00059fe0 | Added:   413, Done:   414, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00059380 -> Channel:  0, BG: 1, Bank: 0, Row:    22, Col: 28
+[+] 416  		[*] (Issue)  Type: WRITE           | Addr: 0x000596a0 -> Channel:  0, BG: 1, Bank: 1, Row:    22, Col: 21
+[+] 418  		[=] (Return) Type: WRITE           | Addr: 0x0005a000 | Added:   417, Done:   418, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x000599a0 -> Channel:  0, BG: 1, Bank: 2, Row:    22, Col: 13
+        		[*] (Issue)  Type: ACTIVATE        | Addr: 0x0005a000 -> Channel:  0, BG: 2, Bank: 0, Row:    22, Col:  0
+[+] 419  		[=] (Return) Type: WRITE           | Addr: 0x0005a020 | Added:   418, Done:   419, Latency:     1
+[+] 420  		[=] (Return) Type: WRITE           | Addr: 0x0005a040 | Added:   419, Done:   420, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x000593a0 -> Channel:  0, BG: 1, Bank: 0, Row:    22, Col: 29
+[+] 421  		[=] (Return) Type: WRITE           | Addr: 0x0005a060 | Added:   420, Done:   421, Latency:     1
+[+] 422  		[=] (Return) Type: WRITE           | Addr: 0x0005a080 | Added:   421, Done:   422, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x000596c0 -> Channel:  0, BG: 1, Bank: 1, Row:    22, Col: 22
+[+] 423  		[=] (Return) Type: WRITE           | Addr: 0x0005a0a0 | Added:   422, Done:   423, Latency:     1
+[+] 424  		[=] (Return) Type: WRITE           | Addr: 0x0005a0c0 | Added:   423, Done:   424, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x000599c0 -> Channel:  0, BG: 1, Bank: 2, Row:    22, Col: 14
+[+] 425  		[=] (Return) Type: WRITE           | Addr: 0x0005a0e0 | Added:   424, Done:   425, Latency:     1
+[+] 426  		[=] (Return) Type: WRITE           | Addr: 0x0005a100 | Added:   425, Done:   426, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00059cc0 -> Channel:  0, BG: 1, Bank: 3, Row:    22, Col:  6
+[+] 427  		[=] (Return) Type: WRITE           | Addr: 0x0005a120 | Added:   426, Done:   427, Latency:     1
+[+] 428  		[=] (Return) Type: WRITE           | Addr: 0x0005a140 | Added:   427, Done:   428, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x000593c0 -> Channel:  0, BG: 1, Bank: 0, Row:    22, Col: 30
+[+] 429  		[=] (Return) Type: WRITE           | Addr: 0x0005a160 | Added:   428, Done:   429, Latency:     1
+[+] 430  		[=] (Return) Type: WRITE           | Addr: 0x0005a180 | Added:   429, Done:   430, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x000596e0 -> Channel:  0, BG: 1, Bank: 1, Row:    22, Col: 23
+[+] 432  		[=] (Return) Type: WRITE           | Addr: 0x0005a1a0 | Added:   431, Done:   432, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x000599e0 -> Channel:  0, BG: 1, Bank: 2, Row:    22, Col: 15
+[+] 434  		[=] (Return) Type: WRITE           | Addr: 0x0005a1c0 | Added:   433, Done:   434, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00059ce0 -> Channel:  0, BG: 1, Bank: 3, Row:    22, Col:  7
+[+] 436  		[=] (Return) Type: WRITE           | Addr: 0x0005a1e0 | Added:   435, Done:   436, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x0005a000 -> Channel:  0, BG: 2, Bank: 0, Row:    22, Col:  0
+[+] 438  		[=] (Return) Type: WRITE           | Addr: 0x0005a200 | Added:   437, Done:   438, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x000593e0 -> Channel:  0, BG: 1, Bank: 0, Row:    22, Col: 31
+[+] 440  		[*] (Issue)  Type: WRITE           | Addr: 0x00059700 -> Channel:  0, BG: 1, Bank: 1, Row:    22, Col: 24
+[+] 442  		[*] (Issue)  Type: WRITE           | Addr: 0x00059a00 -> Channel:  0, BG: 1, Bank: 2, Row:    22, Col: 16
+[+] 444  		[=] (Return) Type: WRITE           | Addr: 0x0005a220 | Added:   443, Done:   444, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00059d00 -> Channel:  0, BG: 1, Bank: 3, Row:    22, Col:  8
+[+] 446  		[=] (Return) Type: WRITE           | Addr: 0x0005a240 | Added:   445, Done:   446, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x0005a020 -> Channel:  0, BG: 2, Bank: 0, Row:    22, Col:  1
+[+] 448  		[=] (Return) Type: WRITE           | Addr: 0x0005a260 | Added:   447, Done:   448, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00059720 -> Channel:  0, BG: 1, Bank: 1, Row:    22, Col: 25
+[+] 450  		[*] (Issue)  Type: WRITE           | Addr: 0x00059a20 -> Channel:  0, BG: 1, Bank: 2, Row:    22, Col: 17
+[+] 452  		[=] (Return) Type: WRITE           | Addr: 0x0005a280 | Added:   451, Done:   452, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00059d20 -> Channel:  0, BG: 1, Bank: 3, Row:    22, Col:  9
+[+] 454  		[=] (Return) Type: WRITE           | Addr: 0x0005a2a0 | Added:   453, Done:   454, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x0005a040 -> Channel:  0, BG: 2, Bank: 0, Row:    22, Col:  2
+[+] 456  		[=] (Return) Type: WRITE           | Addr: 0x0005a2c0 | Added:   455, Done:   456, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00059740 -> Channel:  0, BG: 1, Bank: 1, Row:    22, Col: 26
+[+] 458  		[*] (Issue)  Type: WRITE           | Addr: 0x00059a40 -> Channel:  0, BG: 1, Bank: 2, Row:    22, Col: 18
+[+] 460  		[=] (Return) Type: WRITE           | Addr: 0x0005a2e0 | Added:   459, Done:   460, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00059d40 -> Channel:  0, BG: 1, Bank: 3, Row:    22, Col: 10
+[+] 462  		[=] (Return) Type: WRITE           | Addr: 0x0005a300 | Added:   461, Done:   462, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x0005a060 -> Channel:  0, BG: 2, Bank: 0, Row:    22, Col:  3
+[+] 464  		[=] (Return) Type: WRITE           | Addr: 0x0005a320 | Added:   463, Done:   464, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00059760 -> Channel:  0, BG: 1, Bank: 1, Row:    22, Col: 27
+[+] 466  		[*] (Issue)  Type: WRITE           | Addr: 0x00059a60 -> Channel:  0, BG: 1, Bank: 2, Row:    22, Col: 19
+[+] 468  		[=] (Return) Type: WRITE           | Addr: 0x0005a340 | Added:   467, Done:   468, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00059d60 -> Channel:  0, BG: 1, Bank: 3, Row:    22, Col: 11
+[+] 470  		[=] (Return) Type: WRITE           | Addr: 0x0005a360 | Added:   469, Done:   470, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x0005a080 -> Channel:  0, BG: 2, Bank: 0, Row:    22, Col:  4
+[+] 472  		[=] (Return) Type: WRITE           | Addr: 0x0005a380 | Added:   471, Done:   472, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00059780 -> Channel:  0, BG: 1, Bank: 1, Row:    22, Col: 28
+[+] 474  		[*] (Issue)  Type: WRITE           | Addr: 0x00059a80 -> Channel:  0, BG: 1, Bank: 2, Row:    22, Col: 20
+[+] 476  		[=] (Return) Type: WRITE           | Addr: 0x0005a3a0 | Added:   475, Done:   476, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00059d80 -> Channel:  0, BG: 1, Bank: 3, Row:    22, Col: 12
+[+] 478  		[=] (Return) Type: WRITE           | Addr: 0x0005a3c0 | Added:   477, Done:   478, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x0005a0a0 -> Channel:  0, BG: 2, Bank: 0, Row:    22, Col:  5
+[+] 480  		[=] (Return) Type: WRITE           | Addr: 0x0005a3e0 | Added:   479, Done:   480, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x000597a0 -> Channel:  0, BG: 1, Bank: 1, Row:    22, Col: 29
+[+] 482  		[*] (Issue)  Type: WRITE           | Addr: 0x00059aa0 -> Channel:  0, BG: 1, Bank: 2, Row:    22, Col: 21
+[+] 484  		[=] (Return) Type: WRITE           | Addr: 0x0005a400 | Added:   483, Done:   484, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00059da0 -> Channel:  0, BG: 1, Bank: 3, Row:    22, Col: 13
+        		[*] (Issue)  Type: ACTIVATE        | Addr: 0x0005a400 -> Channel:  0, BG: 2, Bank: 1, Row:    22, Col:  0
+[+] 485  		[=] (Return) Type: WRITE           | Addr: 0x0005a420 | Added:   484, Done:   485, Latency:     1
+[+] 486  		[=] (Return) Type: WRITE           | Addr: 0x0005a440 | Added:   485, Done:   486, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x000597c0 -> Channel:  0, BG: 1, Bank: 1, Row:    22, Col: 30
+[+] 487  		[=] (Return) Type: WRITE           | Addr: 0x0005a460 | Added:   486, Done:   487, Latency:     1
+[+] 488  		[=] (Return) Type: WRITE           | Addr: 0x0005a480 | Added:   487, Done:   488, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00059ac0 -> Channel:  0, BG: 1, Bank: 2, Row:    22, Col: 22
+[+] 489  		[=] (Return) Type: WRITE           | Addr: 0x0005a4a0 | Added:   488, Done:   489, Latency:     1
+[+] 490  		[=] (Return) Type: WRITE           | Addr: 0x0005a4c0 | Added:   489, Done:   490, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00059dc0 -> Channel:  0, BG: 1, Bank: 3, Row:    22, Col: 14
+[+] 491  		[=] (Return) Type: WRITE           | Addr: 0x0005a4e0 | Added:   490, Done:   491, Latency:     1
+[+] 492  		[=] (Return) Type: WRITE           | Addr: 0x0005a500 | Added:   491, Done:   492, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x0005a0c0 -> Channel:  0, BG: 2, Bank: 0, Row:    22, Col:  6
+[+] 493  		[=] (Return) Type: WRITE           | Addr: 0x0005a520 | Added:   492, Done:   493, Latency:     1
+[+] 494  		[=] (Return) Type: WRITE           | Addr: 0x0005a540 | Added:   493, Done:   494, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x000597e0 -> Channel:  0, BG: 1, Bank: 1, Row:    22, Col: 31
+[+] 495  		[=] (Return) Type: WRITE           | Addr: 0x0005a560 | Added:   494, Done:   495, Latency:     1
+[+] 496  		[=] (Return) Type: WRITE           | Addr: 0x0005a580 | Added:   495, Done:   496, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00059ae0 -> Channel:  0, BG: 1, Bank: 2, Row:    22, Col: 23
+[+] 498  		[=] (Return) Type: WRITE           | Addr: 0x0005a5a0 | Added:   497, Done:   498, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00059de0 -> Channel:  0, BG: 1, Bank: 3, Row:    22, Col: 15
+[+] 500  		[=] (Return) Type: WRITE           | Addr: 0x0005a5c0 | Added:   499, Done:   500, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x0005a0e0 -> Channel:  0, BG: 2, Bank: 0, Row:    22, Col:  7
+[+] 502  		[=] (Return) Type: WRITE           | Addr: 0x0005a5e0 | Added:   501, Done:   502, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x0005a400 -> Channel:  0, BG: 2, Bank: 1, Row:    22, Col:  0
+[+] 504  		[=] (Return) Type: WRITE           | Addr: 0x0005a600 | Added:   503, Done:   504, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00059b00 -> Channel:  0, BG: 1, Bank: 2, Row:    22, Col: 24
+[+] 506  		[*] (Issue)  Type: WRITE           | Addr: 0x00059e00 -> Channel:  0, BG: 1, Bank: 3, Row:    22, Col: 16
+[+] 508  		[=] (Return) Type: WRITE           | Addr: 0x0005a620 | Added:   507, Done:   508, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x0005a100 -> Channel:  0, BG: 2, Bank: 0, Row:    22, Col:  8
+[+] 510  		[=] (Return) Type: WRITE           | Addr: 0x0005a640 | Added:   509, Done:   510, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x0005a420 -> Channel:  0, BG: 2, Bank: 1, Row:    22, Col:  1
+[+] 512  		[=] (Return) Type: WRITE           | Addr: 0x0005a660 | Added:   511, Done:   512, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00059b20 -> Channel:  0, BG: 1, Bank: 2, Row:    22, Col: 25
+[+] 514  		[*] (Issue)  Type: WRITE           | Addr: 0x00059e20 -> Channel:  0, BG: 1, Bank: 3, Row:    22, Col: 17
+[+] 516  		[=] (Return) Type: WRITE           | Addr: 0x0005a680 | Added:   515, Done:   516, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x0005a120 -> Channel:  0, BG: 2, Bank: 0, Row:    22, Col:  9
+[+] 518  		[=] (Return) Type: WRITE           | Addr: 0x0005a6a0 | Added:   517, Done:   518, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x0005a440 -> Channel:  0, BG: 2, Bank: 1, Row:    22, Col:  2
+[+] 520  		[=] (Return) Type: WRITE           | Addr: 0x0005a6c0 | Added:   519, Done:   520, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00059b40 -> Channel:  0, BG: 1, Bank: 2, Row:    22, Col: 26
+[+] 522  		[*] (Issue)  Type: WRITE           | Addr: 0x00059e40 -> Channel:  0, BG: 1, Bank: 3, Row:    22, Col: 18
+[+] 524  		[=] (Return) Type: WRITE           | Addr: 0x0005a6e0 | Added:   523, Done:   524, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x0005a140 -> Channel:  0, BG: 2, Bank: 0, Row:    22, Col: 10
+[+] 526  		[=] (Return) Type: WRITE           | Addr: 0x0005a700 | Added:   525, Done:   526, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x0005a460 -> Channel:  0, BG: 2, Bank: 1, Row:    22, Col:  3
+[+] 528  		[=] (Return) Type: WRITE           | Addr: 0x0005a720 | Added:   527, Done:   528, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00059b60 -> Channel:  0, BG: 1, Bank: 2, Row:    22, Col: 27
+[+] 530  		[*] (Issue)  Type: WRITE           | Addr: 0x00059e60 -> Channel:  0, BG: 1, Bank: 3, Row:    22, Col: 19
+[+] 532  		[=] (Return) Type: WRITE           | Addr: 0x0005a740 | Added:   531, Done:   532, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x0005a160 -> Channel:  0, BG: 2, Bank: 0, Row:    22, Col: 11
+[+] 534  		[=] (Return) Type: WRITE           | Addr: 0x0005a760 | Added:   533, Done:   534, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x0005a480 -> Channel:  0, BG: 2, Bank: 1, Row:    22, Col:  4
+[+] 536  		[=] (Return) Type: WRITE           | Addr: 0x0005a780 | Added:   535, Done:   536, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x00059b80 -> Channel:  0, BG: 1, Bank: 2, Row:    22, Col: 28
+[+] 538  		[*] (Issue)  Type: WRITE           | Addr: 0x00059e80 -> Channel:  0, BG: 1, Bank: 3, Row:    22, Col: 20
+[+] 540  		[=] (Return) Type: WRITE           | Addr: 0x0005a7a0 | Added:   539, Done:   540, Latency:     1
+        		[*] (Issue)  Type: WRITE           | Addr: 0x0005a180 -> Channel:  0, BG: 2, Bank: 0, Row:    22, Col: 12
