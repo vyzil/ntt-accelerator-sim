@@ -520,8 +520,8 @@ if __name__ == "__main__":
 
     # # Subtile
     # run_HBMaware_phase_0_0(parallel=parallel)
-    # run_HBMaware_phase_0_1(parallel=parallel)
+    run_HBMaware_phase_0_1(parallel=parallel)
     # run_HBMaware_phase_1_0(parallel=parallel)
-    run_HBMaware_phase_1_1(parallel=parallel)
+    # run_HBMaware_phase_1_1(parallel=parallel)
     # run_HBMaware_phase_2_0(parallel=parallel)
     # run_HBMaware_phase_2_1(parallel=parallel)

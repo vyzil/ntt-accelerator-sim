@@ -77,5 +77,5 @@ def test_parallel_by_element(element_count=512):
 
 if __name__ == "__main__":
     # test_singleNTT(512, 1, 8)
-    # test_BU_singleNTT()
-    test_parallel_by_element(512)
+    test_BU_singleNTT()
+    # test_parallel_by_element(512)
