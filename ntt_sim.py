@@ -124,7 +124,7 @@ class Chunk:
         # Read latency
         self.generate_trace_file(is_write=False)
         try:
-            read_output = subprocess.check_output(["./test"], text=True)
+            read_output = subprocess.check_output(["./MemorySim"], text=True)
             hbm_read_cycles = int(read_output.strip())
             self.read_cycles = convert_to_accel_cycle(hbm_read_cycles)
         except Exception as e:
@@ -133,7 +133,7 @@ class Chunk:
         # Write latency
         self.generate_trace_file(is_write=True)
         try:
-            write_output = subprocess.check_output(["./test"], text=True)
+            write_output = subprocess.check_output(["./MemorySim"], text=True)
             hbm_write_cycles = int(write_output.strip())
             self.write_cycles = convert_to_accel_cycle(hbm_write_cycles)
         except Exception as e:
